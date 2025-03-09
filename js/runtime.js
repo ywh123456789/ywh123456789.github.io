@@ -8,7 +8,7 @@ function createtime() {
     let unit = (dis / 149600000).toFixed(6); // 天文单位
 
     // 网站诞生时间
-    let grt = new Date("08/01/2024 00:00:00");
+    let grt = new Date("03/01/2025 00:00:00");
     let days = (now - grt) / 1e3 / 60 / 60 / 24;
     let dnum = Math.floor(days);
     let hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum;
