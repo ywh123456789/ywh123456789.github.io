@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test</title>
-    <url>/2025/03/04/test/</url>
-    <content><![CDATA[<p>test</p>
-]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hello</title>
-    <url>/2025/02/28/hello-world/</url>
+    <title>hello world,这是第一篇博客</title>
+    <url>/2025/03/01/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -37,24 +25,30 @@
       </tags>
   </entry>
   <entry>
-    <title>404 - 页面未找到</title>
-    <url>/404.html</url>
-    <content><![CDATA[<h1 id="404-迷路的小蝴蝶"><a href="#404-迷路的小蝴蝶" class="headerlink" title="404 - 迷路的小蝴蝶"></a>404 - 迷路的小蝴蝶</h1><p><img src="/img/404-butterfly.png" alt="404 Butterfly"></p>
-<p>哎呀！你似乎飞到了未知的领域，奶龙找不到这个页面了呢。<br>别慌张，试试以下选项吧：</p>
-<div class="btn-404">
-  <a href="/" class="btn-home">返回首页</a>
-  <a href="/archives/" class="btn-archives">探索文章</a>
-</div>
-
-<blockquote>
-<p>“迷路也是一种冒险，不是吗？”</p>
-</blockquote>
-]]></content>
+    <title>生活趣事</title>
+    <url>/2025/03/01/%E7%94%9F%E6%B4%BB%E8%B6%A3%E4%BA%8B/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>趣事</tag>
+        <tag>快乐</tag>
+      </tags>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
+    <title></title>
+    <url>/css/runtime.css</url>
+    <content><![CDATA[#workboard {
+    font-size: 13px;
+    font-weight: 700;
+}]]></content>
+  </entry>
+  <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>
+]]></content>
   </entry>
   <entry>
     <title></title>
@@ -84,23 +78,18 @@
   }]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/css/runtime.css</url>
-    <content><![CDATA[#workboard {
-    font-size: 13px;
-    font-weight: 700;
-}]]></content>
-  </entry>
-  <entry>
-    <title>关于</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>学习</title>
-    <url>/learn/index.html</url>
-    <content><![CDATA[<p>你好，这是学习</p>
+    <title>404 - 页面未找到</title>
+    <url>/404.html</url>
+    <content><![CDATA[<h1 id="404-迷路的小蝴蝶"><a href="#404-迷路的小蝴蝶" class="headerlink" title="404 - 迷路的小蝴蝶"></a>404 - 迷路的小蝴蝶</h1><p><img src="/img/404-butterfly.png" alt="404 Butterfly"></p>
+<p>哎呀！你似乎飞到了未知的领域，奶龙找不到这个页面了呢。<br>别慌张，试试以下选项吧：</p>
+<div class="btn-404">
+  <a href="/" class="btn-home">返回首页</a>
+  <a href="/archives/" class="btn-archives">探索文章</a>
+</div>
+
+<blockquote>
+<p>“迷路也是一种冒险，不是吗？”</p>
+</blockquote>
 ]]></content>
   </entry>
   <entry>
@@ -126,6 +115,28 @@
     </figcaption>
   </figure>
 </div>]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>生活</title>
+    <url>/life/index.html</url>
+    <content><![CDATA[<p>你好，这是生活</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>学习</title>
+    <url>/learn/index.html</url>
+    <content><![CDATA[<p>你好，这是学习</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title></title>
@@ -169,23 +180,9 @@ setInterval(() => {
 }, 1000);]]></content>
   </entry>
   <entry>
-    <title>生活</title>
-    <url>/life/index.html</url>
-    <content><![CDATA[<p>你好，这是生活</p>
-]]></content>
-  </entry>
-  <entry>
     <title>友情链接</title>
     <url>/link/index.html</url>
     <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>壁纸</title>
-    <url>/Gallery/wallpaper/index.html</url>
-    <content><![CDATA[<p>好康的壁纸</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://source.fomal.cc/img/default_cover_1.webp","alt":"p1","title":""},{"url":"https://source.fomal.cc/img/default_cover_2.webp","alt":"p2","title":""},{"url":"https://source.fomal.cc/img/default_cover_3.webp","alt":"p3","title":""},{"url":"https://source.fomal.cc/img/default_cover_4.webp","alt":"p4","title":""},{"url":"https://source.fomal.cc/img/default_cover_5.webp","alt":"p5","title":""},{"url":"https://source.fomal.cc/img/default_cover_6.webp","alt":"p6","title":""},{"url":"https://source.fomal.cc/img/default_cover_7.webp","alt":"p7","title":""},{"url":"https://source.fomal.cc/img/default_cover_8.webp","alt":"p8","title":""},{"url":"https://source.fomal.cc/img/default_cover_9.webp","alt":"p9","title":""},{"url":"https://source.fomal.cc/img/default_cover_10.webp","alt":"p10","title":""},{"url":"https://source.fomal.cc/img/default_cover_11.webp","alt":"p11","title":""},{"url":"https://source.fomal.cc/img/default_cover_12.webp","alt":"p12","title":""}]</div>
-  </div>]]></content>
   </entry>
   <entry>
     <title>封面</title>
@@ -197,8 +194,11 @@ setInterval(() => {
 ]]></content>
   </entry>
   <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>壁纸</title>
+    <url>/Gallery/wallpaper/index.html</url>
+    <content><![CDATA[<p>好康的壁纸</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://source.fomal.cc/img/default_cover_1.webp","alt":"p1","title":""},{"url":"https://source.fomal.cc/img/default_cover_2.webp","alt":"p2","title":""},{"url":"https://source.fomal.cc/img/default_cover_3.webp","alt":"p3","title":""},{"url":"https://source.fomal.cc/img/default_cover_4.webp","alt":"p4","title":""},{"url":"https://source.fomal.cc/img/default_cover_5.webp","alt":"p5","title":""},{"url":"https://source.fomal.cc/img/default_cover_6.webp","alt":"p6","title":""},{"url":"https://source.fomal.cc/img/default_cover_7.webp","alt":"p7","title":""},{"url":"https://source.fomal.cc/img/default_cover_8.webp","alt":"p8","title":""},{"url":"https://source.fomal.cc/img/default_cover_9.webp","alt":"p9","title":""},{"url":"https://source.fomal.cc/img/default_cover_10.webp","alt":"p10","title":""},{"url":"https://source.fomal.cc/img/default_cover_11.webp","alt":"p11","title":""},{"url":"https://source.fomal.cc/img/default_cover_12.webp","alt":"p12","title":""}]</div>
+  </div>]]></content>
   </entry>
 </search>
