@@ -37,18 +37,30 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/css/runtime.css</url>
-    <content><![CDATA[#workboard {
-    font-size: 13px;
-    font-weight: 700;
-}]]></content>
+    <title>404 - 页面未找到</title>
+    <url>/404.html</url>
+    <content><![CDATA[<h1 id="404-迷路的小蝴蝶"><a href="#404-迷路的小蝴蝶" class="headerlink" title="404 - 迷路的小蝴蝶"></a>404 - 迷路的小蝴蝶</h1><p><img src="/img/404-butterfly.png" alt="404 Butterfly"></p>
+<p>哎呀！你似乎飞到了未知的领域，奶龙找不到这个页面了呢。<br>别慌张，试试以下选项吧：</p>
+<div class="btn-404">
+  <a href="/" class="btn-home">返回首页</a>
+  <a href="/archives/" class="btn-archives">探索文章</a>
+</div>
+
+<blockquote>
+<p>“迷路也是一种冒险，不是吗？”</p>
+</blockquote>
+]]></content>
   </entry>
   <entry>
     <title>关于</title>
     <url>/about/index.html</url>
     <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title></title>
@@ -78,65 +90,12 @@
   }]]></content>
   </entry>
   <entry>
-    <title>404 - 页面未找到</title>
-    <url>/404.html</url>
-    <content><![CDATA[<h1 id="404-迷路的小蝴蝶"><a href="#404-迷路的小蝴蝶" class="headerlink" title="404 - 迷路的小蝴蝶"></a>404 - 迷路的小蝴蝶</h1><p><img src="/img/404-butterfly.png" alt="404 Butterfly"></p>
-<p>哎呀！你似乎飞到了未知的领域，奶龙找不到这个页面了呢。<br>别慌张，试试以下选项吧：</p>
-<div class="btn-404">
-  <a href="/" class="btn-home">返回首页</a>
-  <a href="/archives/" class="btn-archives">探索文章</a>
-</div>
-
-<blockquote>
-<p>“迷路也是一种冒险，不是吗？”</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>图库</title>
-    <url>/images/index.html</url>
-    <content><![CDATA[<div class="gallery-group-main">
-
-<figure class="gallery-group">
-    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/default_cover_61.webp' alt="Group Image Gallery">
-    <figcaption>
-      <div class="gallery-group-name">封面专区</div>
-      <p>本站用作文章封面的图片，不保证分辨率</p>
-      <a href='/Gallery/cover'></a>
-    </figcaption>
-  </figure>
-
-<figure class="gallery-group">
-    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/dm11.webp' alt="Group Image Gallery">
-    <figcaption>
-      <div class="gallery-group-name">壁纸专区</div>
-      <p>收藏的一些的背景与壁纸，分辨率很高</p>
-      <a href='/Gallery/wallpaper'></a>
-    </figcaption>
-  </figure>
-</div>]]></content>
-  </entry>
-  <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>生活</title>
-    <url>/life/index.html</url>
-    <content><![CDATA[<p>你好，这是生活</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>学习</title>
-    <url>/learn/index.html</url>
-    <content><![CDATA[<p>你好，这是学习</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
+    <title></title>
+    <url>/css/runtime.css</url>
+    <content><![CDATA[#workboard {
+    font-size: 13px;
+    font-weight: 700;
+}]]></content>
   </entry>
   <entry>
     <title></title>
@@ -180,8 +139,49 @@ setInterval(() => {
 }, 1000);]]></content>
   </entry>
   <entry>
+    <title>图库</title>
+    <url>/images/index.html</url>
+    <content><![CDATA[<div class="gallery-group-main">
+
+<figure class="gallery-group">
+    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/default_cover_61.webp' alt="Group Image Gallery">
+    <figcaption>
+      <div class="gallery-group-name">封面专区</div>
+      <p>本站用作文章封面的图片，不保证分辨率</p>
+      <a href='/Gallery/cover'></a>
+    </figcaption>
+  </figure>
+
+<figure class="gallery-group">
+    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/dm11.webp' alt="Group Image Gallery">
+    <figcaption>
+      <div class="gallery-group-name">壁纸专区</div>
+      <p>收藏的一些的背景与壁纸，分辨率很高</p>
+      <a href='/Gallery/wallpaper'></a>
+    </figcaption>
+  </figure>
+</div>]]></content>
+  </entry>
+  <entry>
+    <title>生活</title>
+    <url>/life/index.html</url>
+    <content><![CDATA[<p>你好，这是生活</p>
+]]></content>
+  </entry>
+  <entry>
     <title>友情链接</title>
     <url>/link/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>学习</title>
+    <url>/learn/index.html</url>
+    <content><![CDATA[<p>你好，这是学习</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
