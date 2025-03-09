@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test</title>
+    <url>/2025/03/04/test/</url>
+    <content><![CDATA[<p>test</p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hello</title>
     <url>/2025/02/28/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -16,18 +28,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2025/03/04/test/</url>
-    <content><![CDATA[<p>test</p>
 ]]></content>
       <categories>
         <category>test</category>
@@ -59,76 +59,48 @@
   <entry>
     <title></title>
     <url>/css/custom.css</url>
-    <content><![CDATA[/* 404 页面样式 */
-#page-404 {
-    text-align: center;
-    padding: 40px;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 50px auto;
-}
-
-#page-404 h1 {
-    font-size: 50px;
-    color: #ff6f61;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#page-404 img {
-    max-width: 250px;
-    margin: 20px auto;
-    display: block;
-}
-
-#page-404 p {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.btn-404 {
-    margin-top: 20px;
-}
-
-.btn-404 a {
-    display: inline-block;
-    padding: 12px 25px;
-    margin: 0 10px;
-    background-color: #49b1f5;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 25px;
-    font-size: 16px;
-    transition: all 0.3s ease;
-}
-
-.btn-404 a:hover {
-    background-color: #1f8dd6;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.btn-home {
-    background-color: #ff6f61;
-}
-
-.btn-home:hover {
-    background-color: #e55a4e;
-}
-
-#page-404 blockquote {
-    font-style: italic;
-    color: #888;
-    margin-top: 30px;
+    <content><![CDATA[/* 页脚与头图透明 */
+#footer {
+    background: transparent !important;
+  }
+  #page-header {
+    background: transparent !important;
+  }
+  
+  /* 白天模式遮罩透明 */
+  #footer::before {
+    background: transparent !important;
+  }
+  #page-header::before {
+    background: transparent !important;
+  }
+  
+  /* 夜间模式遮罩透明 */
+  [data-theme="dark"] #footer::before {
+    background: transparent !important;
+  }
+  [data-theme="dark"] #page-header::before {
+    background: transparent !important;
+  }]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/css/runtime.css</url>
+    <content><![CDATA[#workboard {
+    font-size: 13px;
+    font-weight: 700;
 }]]></content>
   </entry>
   <entry>
     <title>关于</title>
     <url>/about/index.html</url>
     <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>学习</title>
+    <url>/learn/index.html</url>
+    <content><![CDATA[<p>你好，这是学习</p>
 ]]></content>
   </entry>
   <entry>
@@ -154,14 +126,6 @@
     </figcaption>
   </figure>
 </div>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/css/runtime.css</url>
-    <content><![CDATA[#workboard {
-    font-size: 13px;
-    font-weight: 700;
-}]]></content>
   </entry>
   <entry>
     <title></title>
@@ -211,19 +175,8 @@ setInterval(() => {
 ]]></content>
   </entry>
   <entry>
-    <title>学习</title>
-    <url>/learn/index.html</url>
-    <content><![CDATA[<p>你好，这是学习</p>
-]]></content>
-  </entry>
-  <entry>
     <title>友情链接</title>
     <url>/link/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -242,5 +195,10 @@ setInterval(() => {
     <div class="gallery-items">[{"url":"https://img.ixintu.com/download/jpg/201911/f5042511abeca72ccbd106b3104da260.jpg!con0","alt":"p1","title":""},{"url":"https://th.bing.com/th/id/R.b43caf4b635bdd2f3b2f6dbcfd225779?rik=%2fNhd%2bdj5P2u38Q&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20181003%2f7b4620aebd93484789ffa9b8101157e7.jpeg&ehk=CuCmIcG43ZBwm1LN29wOIBEwsAG%2f9eZLxCbBWPnf3yU%3d&risl=&pid=ImgRaw&r=0","alt":"p2","title":""},{"url":"https://www.keaitupian.cn/cjpic/frombd/1/253/2701183717/1035152779.jpg","alt":"p3","title":""},{"url":"https://file.moyublog.com/d/file/2019-11-25/1a34f72f9fdb2962c797158fd545d5ab.png","alt":"p4","title":""},{"url":"https://img.keaitupian.cn/newupload/05/1684834658291825.jpg","alt":"p5","title":""}]</div>
   </div>
 ]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>

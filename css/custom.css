@@ -1,65 +1,23 @@
-/* 404 页面样式 */
-#page-404 {
-    text-align: center;
-    padding: 40px;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 50px auto;
-}
-
-#page-404 h1 {
-    font-size: 50px;
-    color: #ff6f61;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#page-404 img {
-    max-width: 250px;
-    margin: 20px auto;
-    display: block;
-}
-
-#page-404 p {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.btn-404 {
-    margin-top: 20px;
-}
-
-.btn-404 a {
-    display: inline-block;
-    padding: 12px 25px;
-    margin: 0 10px;
-    background-color: #49b1f5;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 25px;
-    font-size: 16px;
-    transition: all 0.3s ease;
-}
-
-.btn-404 a:hover {
-    background-color: #1f8dd6;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.btn-home {
-    background-color: #ff6f61;
-}
-
-.btn-home:hover {
-    background-color: #e55a4e;
-}
-
-#page-404 blockquote {
-    font-style: italic;
-    color: #888;
-    margin-top: 30px;
-}
+/* 页脚与头图透明 */
+#footer {
+    background: transparent !important;
+  }
+  #page-header {
+    background: transparent !important;
+  }
+  
+  /* 白天模式遮罩透明 */
+  #footer::before {
+    background: transparent !important;
+  }
+  #page-header::before {
+    background: transparent !important;
+  }
+  
+  /* 夜间模式遮罩透明 */
+  [data-theme="dark"] #footer::before {
+    background: transparent !important;
+  }
+  [data-theme="dark"] #page-header::before {
+    background: transparent !important;
+  }
