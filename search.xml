@@ -3,7 +3,7 @@
   <entry>
     <title>hello world,这是第一篇博客</title>
     <url>/2025/03/01/hello-world/</url>
-    <content><![CDATA[<h1 id="这是我的第一篇博客，我将从这里出发，探索世界。。。"><a href="#这是我的第一篇博客，我将从这里出发，探索世界。。。" class="headerlink" title="这是我的第一篇博客，我将从这里出发，探索世界。。。"></a>这是我的第一篇博客，我将从这里出发，探索世界。。。</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="这是我的第一篇博客，我将从这里出发，探索世界。。。"><a href="#这是我的第一篇博客，我将从这里出发，探索世界。。。" class="headerlink" title="这是我的第一篇博客，我将从这里出发，探索世界。。。"></a>这是我的第一篇博客，我将从这里出发，探索世界。。。</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -23,7 +23,7 @@
   <entry>
     <title>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）</title>
     <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A001/</url>
-    <content><![CDATA[<h1 id="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"><a href="#梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系" class="headerlink" title="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"></a>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系</h1>]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"><a href="#梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系" class="headerlink" title="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"></a>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系</h1>]]></content>
       <categories>
         <category>学习</category>
       </categories>
@@ -36,7 +36,7 @@
   <entry>
     <title>特征值分解（Eigen Value Decomposition，EVD）、奇异值分解（Singular Value Decomposition，SVD）原理、公式推导及应用</title>
     <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A002/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       <categories>
         <category>学习</category>
       </categories>
@@ -48,7 +48,7 @@
   <entry>
     <title>马拉松简介</title>
     <url>/2025/03/10/%E9%A9%AC%E6%8B%89%E6%9D%BE/</url>
-    <content><![CDATA[<h1 id="奔跑的灵魂：探索马拉松文化的魅力"><a href="#奔跑的灵魂：探索马拉松文化的魅力" class="headerlink" title="奔跑的灵魂：探索马拉松文化的魅力"></a>奔跑的灵魂：探索马拉松文化的魅力</h1><p><img src="https://th.bing.com/th/id/R.4d3f4331901465261cf4d2c91c8ca819?rik=tHjhhnDC9uuhng&amp;riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20180207%2ff653bcbd5b824d11b4b5fe8c0c4398ed.jpeg&amp;ehk=u0H6b9lWh3ZPkUVAxhfP0KbtDRCiV82v%2fbgL54iIjDg%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="马拉松跑者"><br><em>一群跑者在晨光中奔跑，象征着马拉松的活力与坚持。图片来源：<a href="https://www.sohu.com">sohu.com</a></em></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="奔跑的灵魂：探索马拉松文化的魅力"><a href="#奔跑的灵魂：探索马拉松文化的魅力" class="headerlink" title="奔跑的灵魂：探索马拉松文化的魅力"></a>奔跑的灵魂：探索马拉松文化的魅力</h1><p><img src="https://th.bing.com/th/id/R.4d3f4331901465261cf4d2c91c8ca819?rik=tHjhhnDC9uuhng&amp;riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20180207%2ff653bcbd5b824d11b4b5fe8c0c4398ed.jpeg&amp;ehk=u0H6b9lWh3ZPkUVAxhfP0KbtDRCiV82v%2fbgL54iIjDg%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="马拉松跑者"><br><em>一群跑者在晨光中奔跑，象征着马拉松的活力与坚持。图片来源：<a href="https://www.sohu.com">sohu.com</a></em></p>
 <p>欢迎来到这个关于马拉松的博客！在这里，我们将一起探索马拉松的起源、精神以及它如何成为全球热潮。无论你是资深跑者还是初次尝试42.195公里的新手，这篇文章将带你走进马拉松的精彩世界。</p>
 <hr>
 <h2 id="马拉松的起源：从古希腊到现代"><a href="#马拉松的起源：从古希腊到现代" class="headerlink" title="马拉松的起源：从古希腊到现代"></a>马拉松的起源：从古希腊到现代</h2><p>马拉松的故事始于公元前490年的古希腊。传说中，信使菲迪皮茨（Pheidippides）从马拉松战场跑到雅典，传递希腊战胜波斯的喜讯，全程约42公里。完成使命后，他因体力耗尽而倒下。这个感人的故事催生了现代马拉松运动。</p>
@@ -107,9 +107,15 @@
       </tags>
   </entry>
   <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>你好，这里是关于信息，欢迎访问本网站</p>
+]]></content>
+  </entry>
+  <entry>
     <title>404 - 页面未找到</title>
     <url>/404.html</url>
-    <content><![CDATA[<h1 id="404-迷路的小蝴蝶"><a href="#404-迷路的小蝴蝶" class="headerlink" title="404 - 迷路的小蝴蝶"></a>404 - 迷路的小蝴蝶</h1><p><img src="/img/404-butterfly.png" alt="404 Butterfly"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="404-迷路的小蝴蝶"><a href="#404-迷路的小蝴蝶" class="headerlink" title="404 - 迷路的小蝴蝶"></a>404 - 迷路的小蝴蝶</h1><p><img src="/img/404-butterfly.png" alt="404 Butterfly"></p>
 <p>哎呀！你似乎飞到了未知的领域，奶龙找不到这个页面了呢。<br>别慌张，试试以下选项吧：</p>
 <div class="btn-404">
   <a href="/" class="btn-home">返回首页</a>
@@ -122,23 +128,64 @@
 ]]></content>
   </entry>
   <entry>
-    <title>关于</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title></title>
-    <url>/css/runtime.css</url>
-    <content><![CDATA[#workboard {
-    font-size: 13px;
-    font-weight: 700;
-}]]></content>
+    <url>/css/progress_bar.css</url>
+    <content><![CDATA[.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: 2000;
+    position: fixed;
+    margin: auto;
+    top: 4px;
+    left: 0;
+    right: 0;
+    height: 8px;
+    border-radius: 8px;
+    width: 7rem;
+    background: #eaecf2;
+    border: 1px #e3e8f7;
+    overflow: hidden
+}
+
+.pace-inactive .pace-progress {
+    opacity: 0;
+    transition: .3s ease-in
+}
+
+.pace .pace-progress {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    max-width: 200px;
+    position: absolute;
+    z-index: 2000;
+    display: block;
+    top: 0;
+    right: 100%;
+    height: 100%;
+    width: 100%;
+    /* linear-gradient(to right, #3494e6, #ec6ead) */
+    background: linear-gradient(to right, #43cea2, #3866ca);
+    animation: gradient 2s ease infinite;
+    background-size: 200%
+}
+
+.pace.pace-inactive {
+    opacity: 0;
+    transition: .3s;
+    top: -8px
+}
+]]></content>
   </entry>
   <entry>
     <title></title>
@@ -520,12 +567,42 @@ div#archive {
 [data-theme="dark"] .read-mode div#post {
   background: rgba(25, 25, 25, 0.9) !important;
   color: #ffffff;
+}
+
+/*哔哩哔哩视频适配*/
+.aspect-ratio {
+  position: relative;
+  width: 90%;
+  height: auto;
+  padding-bottom: 75%;
+  margin: 3% auto;
+  text-align: center;
+}
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 86%;
+  left: 0;
+  top: 0;
 }]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/css/runtime.css</url>
+    <content><![CDATA[#workboard {
+    font-size: 13px;
+    font-weight: 700;
+}]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
     <title>图库</title>
     <url>/images/index.html</url>
-    <content><![CDATA[<div class="gallery-group-main">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="gallery-group-main">
 
 <figure class="gallery-group">
     <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/default_cover_61.webp' alt="Group Image Gallery">
@@ -685,13 +762,19 @@ dark()]]></content>
   <entry>
     <title>生活</title>
     <url>/life/index.html</url>
-    <content><![CDATA[<p>你好，这是生活</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>你好，这是生活</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>学习</title>
+    <url>/learn/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>你好，这是学习</p>
 ]]></content>
   </entry>
   <entry>
     <title>封面</title>
     <url>/Gallery/cover/index.html</url>
-    <content><![CDATA[<p>好康的封面<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>好康的封面<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
     <div class="gallery-items">[{"url":"https://img.ixintu.com/download/jpg/201911/f5042511abeca72ccbd106b3104da260.jpg!con0","alt":"p1","title":""},{"url":"https://th.bing.com/th/id/R.b43caf4b635bdd2f3b2f6dbcfd225779?rik=%2fNhd%2bdj5P2u38Q&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20181003%2f7b4620aebd93484789ffa9b8101157e7.jpeg&ehk=CuCmIcG43ZBwm1LN29wOIBEwsAG%2f9eZLxCbBWPnf3yU%3d&risl=&pid=ImgRaw&r=0","alt":"p2","title":""},{"url":"https://www.keaitupian.cn/cjpic/frombd/1/253/2701183717/1035152779.jpg","alt":"p3","title":""},{"url":"https://file.moyublog.com/d/file/2019-11-25/1a34f72f9fdb2962c797158fd545d5ab.png","alt":"p4","title":""},{"url":"https://img.keaitupian.cn/newupload/05/1684834658291825.jpg","alt":"p5","title":""}]</div>
   </div></p>
 ]]></content>
@@ -699,23 +782,17 @@ dark()]]></content>
   <entry>
     <title>标签</title>
     <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
     <title>友情链接</title>
     <url>/link/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>学习</title>
-    <url>/learn/index.html</url>
-    <content><![CDATA[<p>你好，这是学习</p>
-]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
     <title>壁纸</title>
     <url>/Gallery/wallpaper/index.html</url>
-    <content><![CDATA[<p>好康的壁纸<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>好康的壁纸<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
     <div class="gallery-items">[{"url":"https://source.fomal.cc/img/default_cover_1.webp","alt":"p1","title":""},{"url":"https://source.fomal.cc/img/default_cover_2.webp","alt":"p2","title":""},{"url":"https://source.fomal.cc/img/default_cover_3.webp","alt":"p3","title":""},{"url":"https://source.fomal.cc/img/default_cover_4.webp","alt":"p4","title":""},{"url":"https://source.fomal.cc/img/default_cover_5.webp","alt":"p5","title":""},{"url":"https://source.fomal.cc/img/default_cover_6.webp","alt":"p6","title":""},{"url":"https://source.fomal.cc/img/default_cover_7.webp","alt":"p7","title":""},{"url":"https://source.fomal.cc/img/default_cover_8.webp","alt":"p8","title":""},{"url":"https://source.fomal.cc/img/default_cover_9.webp","alt":"p9","title":""},{"url":"https://source.fomal.cc/img/default_cover_10.webp","alt":"p10","title":""},{"url":"https://source.fomal.cc/img/default_cover_11.webp","alt":"p11","title":""},{"url":"https://source.fomal.cc/img/default_cover_12.webp","alt":"p12","title":""}]</div>
   </div></p>
 ]]></content>
