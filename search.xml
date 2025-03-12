@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）</title>
-    <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A001/</url>
-    <content><![CDATA[<h1 id="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"><a href="#梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系" class="headerlink" title="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"></a>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系</h1>]]></content>
+    <title>特征值分解（Eigen Value Decomposition，EVD）、奇异值分解（Singular Value Decomposition，SVD）原理、公式推导及应用</title>
+    <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A002/</url>
+    <content><![CDATA[]]></content>
       <categories>
         <category>学习</category>
       </categories>
       <tags>
         <tag>机器学习</tag>
-        <tag>微积分</tag>
         <tag>线性代数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hello world,这是第一篇博客</title>
+    <url>/2025/03/01/hello-world/</url>
+    <content><![CDATA[<h1 id="这是我的第一篇博客，我将从这里出发，探索世界。。。"><a href="#这是我的第一篇博客，我将从这里出发，探索世界。。。" class="headerlink" title="这是我的第一篇博客，我将从这里出发，探索世界。。。"></a>这是我的第一篇博客，我将从这里出发，探索世界。。。</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
       </tags>
   </entry>
   <entry>
@@ -75,36 +94,182 @@
       </tags>
   </entry>
   <entry>
-    <title>hello world,这是第一篇博客</title>
-    <url>/2025/03/01/hello-world/</url>
-    <content><![CDATA[<h1 id="这是我的第一篇博客，我将从这里出发，探索世界。。。"><a href="#这是我的第一篇博客，我将从这里出发，探索世界。。。" class="headerlink" title="这是我的第一篇博客，我将从这里出发，探索世界。。。"></a>这是我的第一篇博客，我将从这里出发，探索世界。。。</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>特征值分解（Eigen Value Decomposition，EVD）、奇异值分解（Singular Value Decomposition，SVD）原理、公式推导及应用</title>
-    <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A002/</url>
-    <content><![CDATA[]]></content>
+    <title>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）</title>
+    <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A001/</url>
+    <content><![CDATA[<h1 id="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"><a href="#梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系" class="headerlink" title="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"></a>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系</h1>]]></content>
       <categories>
         <category>学习</category>
       </categories>
       <tags>
         <tag>机器学习</tag>
         <tag>线性代数</tag>
+        <tag>微积分</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>图库</title>
+    <url>/images/index.html</url>
+    <content><![CDATA[<div class="gallery-group-main">
+
+<figure class="gallery-group">
+    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/default_cover_61.webp' alt="Group Image Gallery">
+    <figcaption>
+      <div class="gallery-group-name">封面专区</div>
+      <p>本站用作文章封面的图片，不保证分辨率</p>
+      <a href='/Gallery/cover'></a>
+    </figcaption>
+  </figure>
+
+<figure class="gallery-group">
+    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/dm11.webp' alt="Group Image Gallery">
+    <figcaption>
+      <div class="gallery-group-name">壁纸专区</div>
+      <p>收藏的一些的背景与壁纸，分辨率很高</p>
+      <a href='/Gallery/wallpaper'></a>
+    </figcaption>
+  </figure>
+</div>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/js/cursor.js</url>
+    <content><![CDATA[var CURSOR;
+
+Math.lerp = (a, b, n) => (1 - n) * a + n * b;
+
+const getStyle = (el, attr) => {
+    try {
+        return window.getComputedStyle
+            ? window.getComputedStyle(el)[attr]
+            : el.currentStyle[attr];
+    } catch (e) {}
+    return "";
+};
+
+class Cursor {
+    constructor() {
+        this.pos = {curr: null, prev: null};
+        this.pt = [];
+        this.create();
+        this.init();
+        this.render();
+    }
+
+    move(left, top) {
+        this.cursor.style["left"] = `${left}px`;
+        this.cursor.style["top"] = `${top}px`;
+    }
+
+    create() {
+        if (!this.cursor) {
+            this.cursor = document.createElement("div");
+            this.cursor.id = "cursor";
+            this.cursor.classList.add("hidden");
+            document.body.append(this.cursor);
+        }
+
+        var el = document.getElementsByTagName('*');
+        for (let i = 0; i < el.length; i++)
+            if (getStyle(el[i], "cursor") == "pointer")
+                this.pt.push(el[i].outerHTML);
+
+        document.body.appendChild((this.scr = document.createElement("style")));
+        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5' fill='rgb(0, 255, 8)'/></svg>") 4 4, auto}`;
+    }
+
+    refresh() {
+        this.scr.remove();
+        this.cursor.classList.remove("hover");
+        this.cursor.classList.remove("active");
+        this.pos = {curr: null, prev: null};
+        this.pt = [];
+
+        this.create();
+        this.init();
+        this.render();
+    }
+
+    init() {
+        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
+        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
+        document.onmousemove  = e => {
+            if (this.pos.curr == null) this.move(e.clientX, e.clientY); // 移除 -8 偏移
+            this.pos.curr = {x: e.clientX, y: e.clientY}; // 更新为原始坐标
+            this.cursor.classList.remove("hidden");
+        };
+        document.onmouseenter = e => this.cursor.classList.remove("hidden");
+        document.onmouseleave = e => this.cursor.classList.add("hidden");
+        document.onmousedown  = e => this.cursor.classList.add("active");
+        document.onmouseup    = e => this.cursor.classList.remove("active");
+    }
+
+    render() {
+        if (this.pos.prev) {
+            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);
+            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);
+            this.move(this.pos.prev.x, this.pos.prev.y);
+        } else {
+            this.pos.prev = this.pos.curr;
+        }
+        requestAnimationFrame(() => this.render());
+    }
+}
+
+(() => {
+    CURSOR = new Cursor();
+})();]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/js/runtime.js</url>
+    <content><![CDATA[/* 页面计时器 start */
+let now = new Date();
+function createtime() {
+    // 当前时间
+    now.setTime(now.getTime() + 1000);
+    let start = new Date("05/14/2023 00:00:00"); // 旅行者1号开始计算的时间
+    let dis = Math.trunc(23400000000 + (now - start) / 1000 * 17); // 距离=秒数*速度 记住转换毫秒
+    let unit = (dis / 149600000).toFixed(6); // 天文单位
+
+    // 网站诞生时间
+    let grt = new Date("03/01/2025 00:00:00");
+    let days = (now - grt) / 1e3 / 60 / 60 / 24;
+    let dnum = Math.floor(days);
+    let hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum;
+    let hnum = Math.floor(hours);
+    let minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum;
+    let mnum = Math.floor(minutes);
+    let seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum;
+    let snum = Math.round(seconds);
+
+    let currentTimeHtml = "";
+    currentTimeHtml = `<div style="font-size:13px;font-weight:bold">
+        本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 
+        <i id="heartbeat" class="fas fa-heartbeat"></i><br>
+        旅行者 1 号当前距离地球 ${dis} 千米,约为 ${unit} 个天文单位 🚀</div>
+        <font size=2px>再看看那个光点,它就在这里,这是家园,这是我们—— 
+        你所爱的每一个人,你认识的每一个人,你听说过的每一个人<br>曾经有过的每一个人,
+        都在它上面度过他们的一生⭐</font>`;
+    
+    document.getElementById("workboard") &&
+        (document.getElementById("workboard").innerHTML = currentTimeHtml);
+}
+
+// 设置重复执行函数，周期1000ms
+setInterval(() => {
+    createtime();
+}, 1000);]]></content>
   </entry>
   <entry>
     <title>404 - 页面未找到</title>
@@ -122,9 +287,24 @@
 ]]></content>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>学习</title>
+    <url>/learn/index.html</url>
+    <content><![CDATA[<p>你好，这是学习</p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/js/universe.js</url>
+    <content><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};
+dark()]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/css/runtime.css</url>
+    <content><![CDATA[#workboard {
+    font-size: 13px;
+    font-weight: 700;
+}]]></content>
   </entry>
   <entry>
     <title></title>
@@ -597,38 +777,6 @@ h6::before {
   </entry>
   <entry>
     <title></title>
-    <url>/css/runtime.css</url>
-    <content><![CDATA[#workboard {
-    font-size: 13px;
-    font-weight: 700;
-}]]></content>
-  </entry>
-  <entry>
-    <title>图库</title>
-    <url>/images/index.html</url>
-    <content><![CDATA[<div class="gallery-group-main">
-
-<figure class="gallery-group">
-    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/default_cover_61.webp' alt="Group Image Gallery">
-    <figcaption>
-      <div class="gallery-group-name">封面专区</div>
-      <p>本站用作文章封面的图片，不保证分辨率</p>
-      <a href='/Gallery/cover'></a>
-    </figcaption>
-  </figure>
-
-<figure class="gallery-group">
-    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/dm11.webp' alt="Group Image Gallery">
-    <figcaption>
-      <div class="gallery-group-name">壁纸专区</div>
-      <p>收藏的一些的背景与壁纸，分辨率很高</p>
-      <a href='/Gallery/wallpaper'></a>
-    </figcaption>
-  </figure>
-</div>]]></content>
-  </entry>
-  <entry>
-    <title></title>
     <url>/css/progress_bar.css</url>
     <content><![CDATA[.pace {
     -webkit-pointer-events: none;
@@ -708,158 +856,10 @@ h6::before {
   }]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/js/cursor.js</url>
-    <content><![CDATA[var CURSOR;
-
-Math.lerp = (a, b, n) => (1 - n) * a + n * b;
-
-const getStyle = (el, attr) => {
-    try {
-        return window.getComputedStyle
-            ? window.getComputedStyle(el)[attr]
-            : el.currentStyle[attr];
-    } catch (e) {}
-    return "";
-};
-
-class Cursor {
-    constructor() {
-        this.pos = {curr: null, prev: null};
-        this.pt = [];
-        this.create();
-        this.init();
-        this.render();
-    }
-
-    move(left, top) {
-        this.cursor.style["left"] = `${left}px`;
-        this.cursor.style["top"] = `${top}px`;
-    }
-
-    create() {
-        if (!this.cursor) {
-            this.cursor = document.createElement("div");
-            this.cursor.id = "cursor";
-            this.cursor.classList.add("hidden");
-            document.body.append(this.cursor);
-        }
-
-        var el = document.getElementsByTagName('*');
-        for (let i = 0; i < el.length; i++)
-            if (getStyle(el[i], "cursor") == "pointer")
-                this.pt.push(el[i].outerHTML);
-
-        document.body.appendChild((this.scr = document.createElement("style")));
-        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5' fill='rgb(0, 255, 8)'/></svg>") 4 4, auto}`;
-    }
-
-    refresh() {
-        this.scr.remove();
-        this.cursor.classList.remove("hover");
-        this.cursor.classList.remove("active");
-        this.pos = {curr: null, prev: null};
-        this.pt = [];
-
-        this.create();
-        this.init();
-        this.render();
-    }
-
-    init() {
-        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
-        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
-        document.onmousemove  = e => {
-            if (this.pos.curr == null) this.move(e.clientX, e.clientY); // 移除 -8 偏移
-            this.pos.curr = {x: e.clientX, y: e.clientY}; // 更新为原始坐标
-            this.cursor.classList.remove("hidden");
-        };
-        document.onmouseenter = e => this.cursor.classList.remove("hidden");
-        document.onmouseleave = e => this.cursor.classList.add("hidden");
-        document.onmousedown  = e => this.cursor.classList.add("active");
-        document.onmouseup    = e => this.cursor.classList.remove("active");
-    }
-
-    render() {
-        if (this.pos.prev) {
-            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);
-            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);
-            this.move(this.pos.prev.x, this.pos.prev.y);
-        } else {
-            this.pos.prev = this.pos.curr;
-        }
-        requestAnimationFrame(() => this.render());
-    }
-}
-
-(() => {
-    CURSOR = new Cursor();
-})();]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/runtime.js</url>
-    <content><![CDATA[/* 页面计时器 start */
-let now = new Date();
-function createtime() {
-    // 当前时间
-    now.setTime(now.getTime() + 1000);
-    let start = new Date("05/14/2023 00:00:00"); // 旅行者1号开始计算的时间
-    let dis = Math.trunc(23400000000 + (now - start) / 1000 * 17); // 距离=秒数*速度 记住转换毫秒
-    let unit = (dis / 149600000).toFixed(6); // 天文单位
-
-    // 网站诞生时间
-    let grt = new Date("03/01/2025 00:00:00");
-    let days = (now - grt) / 1e3 / 60 / 60 / 24;
-    let dnum = Math.floor(days);
-    let hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum;
-    let hnum = Math.floor(hours);
-    let minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum;
-    let mnum = Math.floor(minutes);
-    let seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum;
-    let snum = Math.round(seconds);
-
-    let currentTimeHtml = "";
-    currentTimeHtml = `<div style="font-size:13px;font-weight:bold">
-        本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 
-        <i id="heartbeat" class="fas fa-heartbeat"></i><br>
-        旅行者 1 号当前距离地球 ${dis} 千米,约为 ${unit} 个天文单位 🚀</div>
-        <font size=2px>再看看那个光点,它就在这里,这是家园,这是我们—— 
-        你所爱的每一个人,你认识的每一个人,你听说过的每一个人<br>曾经有过的每一个人,
-        都在它上面度过他们的一生⭐</font>`;
-    
-    document.getElementById("workboard") &&
-        (document.getElementById("workboard").innerHTML = currentTimeHtml);
-}
-
-// 设置重复执行函数，周期1000ms
-setInterval(() => {
-    createtime();
-}, 1000);]]></content>
-  </entry>
-  <entry>
     <title>生活</title>
     <url>/life/index.html</url>
     <content><![CDATA[<p>你好，这是生活</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>学习</title>
-    <url>/learn/index.html</url>
-    <content><![CDATA[<p>你好，这是学习</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>关于</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/universe.js</url>
-    <content><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};
-dark()]]></content>
   </entry>
   <entry>
     <title>友情链接</title>
@@ -867,9 +867,12 @@ dark()]]></content>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>封面</title>
+    <url>/Gallery/cover/index.html</url>
+    <content><![CDATA[<p>好康的封面<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://img.ixintu.com/download/jpg/201911/f5042511abeca72ccbd106b3104da260.jpg!con0","alt":"p1","title":""},{"url":"https://th.bing.com/th/id/R.b43caf4b635bdd2f3b2f6dbcfd225779?rik=%2fNhd%2bdj5P2u38Q&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20181003%2f7b4620aebd93484789ffa9b8101157e7.jpeg&ehk=CuCmIcG43ZBwm1LN29wOIBEwsAG%2f9eZLxCbBWPnf3yU%3d&risl=&pid=ImgRaw&r=0","alt":"p2","title":""},{"url":"https://www.keaitupian.cn/cjpic/frombd/1/253/2701183717/1035152779.jpg","alt":"p3","title":""},{"url":"https://file.moyublog.com/d/file/2019-11-25/1a34f72f9fdb2962c797158fd545d5ab.png","alt":"p4","title":""},{"url":"https://img.keaitupian.cn/newupload/05/1684834658291825.jpg","alt":"p5","title":""}]</div>
+  </div></p>
+]]></content>
   </entry>
   <entry>
     <title>壁纸</title>
@@ -880,11 +883,8 @@ dark()]]></content>
 ]]></content>
   </entry>
   <entry>
-    <title>封面</title>
-    <url>/Gallery/cover/index.html</url>
-    <content><![CDATA[<p>好康的封面<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://img.ixintu.com/download/jpg/201911/f5042511abeca72ccbd106b3104da260.jpg!con0","alt":"p1","title":""},{"url":"https://th.bing.com/th/id/R.b43caf4b635bdd2f3b2f6dbcfd225779?rik=%2fNhd%2bdj5P2u38Q&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20181003%2f7b4620aebd93484789ffa9b8101157e7.jpeg&ehk=CuCmIcG43ZBwm1LN29wOIBEwsAG%2f9eZLxCbBWPnf3yU%3d&risl=&pid=ImgRaw&r=0","alt":"p2","title":""},{"url":"https://www.keaitupian.cn/cjpic/frombd/1/253/2701183717/1035152779.jpg","alt":"p3","title":""},{"url":"https://file.moyublog.com/d/file/2019-11-25/1a34f72f9fdb2962c797158fd545d5ab.png","alt":"p4","title":""},{"url":"https://img.keaitupian.cn/newupload/05/1684834658291825.jpg","alt":"p5","title":""}]</div>
-  </div></p>
-]]></content>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
