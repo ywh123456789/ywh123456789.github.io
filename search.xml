@@ -1,1170 +1,346 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>hello world,这是第一篇博客</title>
-    <url>/2025/03/01/hello-world/</url>
-    <content><![CDATA[<h1 id="这是我的第一篇博客，我将从这里出发，探索世界。。。"><a href="#这是我的第一篇博客，我将从这里出发，探索世界。。。" class="headerlink" title="这是我的第一篇博客，我将从这里出发，探索世界。。。"></a>这是我的第一篇博客，我将从这里出发，探索世界。。。</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）</title>
-    <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A001/</url>
-    <content><![CDATA[<h1 id="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"><a href="#梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系" class="headerlink" title="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"></a>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系</h1>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>机器学习</tag>
-        <tag>微积分</tag>
-        <tag>线性代数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>马拉松简介</title>
-    <url>/2025/03/10/%E9%A9%AC%E6%8B%89%E6%9D%BE/</url>
-    <content><![CDATA[<h1 id="奔跑的灵魂：探索马拉松文化的魅力"><a href="#奔跑的灵魂：探索马拉松文化的魅力" class="headerlink" title="奔跑的灵魂：探索马拉松文化的魅力"></a>奔跑的灵魂：探索马拉松文化的魅力</h1><p><img src="https://th.bing.com/th/id/R.4d3f4331901465261cf4d2c91c8ca819?rik=tHjhhnDC9uuhng&amp;riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20180207%2ff653bcbd5b824d11b4b5fe8c0c4398ed.jpeg&amp;ehk=u0H6b9lWh3ZPkUVAxhfP0KbtDRCiV82v%2fbgL54iIjDg%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="马拉松跑者"><br><em>一群跑者在晨光中奔跑，象征着马拉松的活力与坚持。图片来源：<a href="https://www.sohu.com">sohu.com</a></em></p>
-<p>欢迎来到这个关于马拉松的博客！在这里，我们将一起探索马拉松的起源、精神以及它如何成为全球热潮。无论你是资深跑者还是初次尝试42.195公里的新手，这篇文章将带你走进马拉松的精彩世界。</p>
-<hr>
-<h2 id="马拉松的起源：从古希腊到现代"><a href="#马拉松的起源：从古希腊到现代" class="headerlink" title="马拉松的起源：从古希腊到现代"></a>马拉松的起源：从古希腊到现代</h2><p>马拉松的故事始于公元前490年的古希腊。传说中，信使菲迪皮茨（Pheidippides）从马拉松战场跑到雅典，传递希腊战胜波斯的喜讯，全程约42公里。完成使命后，他因体力耗尽而倒下。这个感人的故事催生了现代马拉松运动。</p>
-<p>1896年，第一届现代奥运会在雅典举办，马拉松正式成为比赛项目，距离被标准化为42.195公里。想了解更多历史细节？点击这里查看：<a href="https://baijiahao.baidu.com/s?id=1775112601581669087#:~:text=%E9%A9%AC%E6%8B%89%E6%9D%BE%E6%AF%94%E8%B5%9B%E8%B5%B7%E6%BA%90%E4%BA%8E%E5%8F%A4%E5%B8%8C%E8%85%8A%EF%BC%8C%E4%BC%A0%E8%AF%B4%E5%85%AC%E5%85%83%E5%89%8D490%E5%B9%B4%EF%BC%8C%E5%A3%AB%E5%85%B5%E4%B8%BA%E4%BC%A0%E9%80%92%E6%88%98%E8%83%9C%E6%B6%88%E6%81%AF%E4%BB%8E%E9%A9%AC%E6%8B%89%E6%9D%BE%E5%A5%94%E5%90%91%E9%9B%85%E5%85%B8%E3%80%82%20%E7%8E%B0%E4%BB%A3%E5%A5%A5%E8%BF%90%E4%BC%9A%E5%B0%86%E5%85%B6%E4%BD%9C%E4%B8%BA%E9%A1%B9%E7%9B%AE%EF%BC%8C%E7%BA%AA%E5%BF%B5%E5%8E%86%E5%8F%B2%E4%BC%A0%E5%A5%87%EF%BC%8C%E8%B5%8B%E4%BA%88%E9%A9%AC%E6%8B%89%E6%9D%BE%E6%B7%B1%E5%88%BB%E7%9A%84%E6%84%8F%E4%B9%89%E3%80%82%20%E4%BC%A0%E8%AF%B4%E7%9A%84%E8%B5%B7%E6%BA%90,%E9%A9%AC%E6%8B%89%E6%9D%BE%E6%AF%94%E8%B5%9B%E7%9A%84%E8%B5%B7%E6%BA%90%E5%8F%AF%E4%BB%A5%E8%BF%BD%E6%BA%AF%E5%88%B0%E5%8F%A4%E5%B8%8C%E8%85%8A%E3%80%82%20%E4%B8%80%E4%B8%AA%E8%91%97%E5%90%8D%E7%9A%84%E4%BC%A0%E8%AF%B4%E5%B0%86%E7%9B%AE%E5%85%89%E6%8A%95%E5%90%91%E5%85%AC%E5%85%83%E5%89%8D490%E5%B9%B4%EF%BC%8C%E5%BD%93%E6%97%B6%E5%B8%8C%E8%85%8A%E9%9B%85%E5%85%B8%E4%B8%8E%E6%B3%A2%E6%96%AF%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%9B%BD%E4%B9%8B%E9%97%B4%E7%88%86%E5%8F%91%E6%88%98%E4%BA%89%E3%80%82%20%E5%9C%A8%E9%A9%AC%E6%8B%89%E6%9D%BE%E5%B9%B3%E5%8E%9F%E4%B8%8A%EF%BC%8C%E5%8F%A4%E5%B8%8C%E8%85%8A%E5%A3%AB%E5%85%B5%E5%A5%8B%E5%8B%87%E4%BD%9C%E6%88%98%EF%BC%8C%E6%88%90%E5%8A%9F%E5%87%BB%E9%80%80%E6%B3%A2%E6%96%AF%E5%86%9B%E9%98%9F%E3%80%82">马拉松的起源与演变</a>。</p>
-<p><img src="https://ts1.tc.mm.bing.net/th/id/R-C.e1b5716bd64ec3ecbf2e92718cfcb532?rik=Jgq3LV7J7Lzw6g&amp;riu=http%3a%2f%2fp1.img.cctvpic.com%2f20121122%2fimages%2f1353555941426_1353555941426_r.jpg&amp;ehk=nNl3oh0Y86rFBKU16JdFUrUCAHsWYUtQvbaACX0Yy9M%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0&amp;sres=1&amp;sresct=1" alt="古希腊雕像"></p>
-<p><em>古希腊雕像，象征着马拉松的历史根源。图片来源：<a href="https://sports.cntv.cn/">cntv.cn</a></em></p>
-<hr>
-<h2 id="马拉松的种类与挑战"><a href="#马拉松的种类与挑战" class="headerlink" title="马拉松的种类与挑战"></a>马拉松的种类与挑战</h2><p>马拉松不仅仅是42.195公里的全程马拉松，还有各种形式，适合不同水平的跑者：</p>
-<ul>
-<li><strong>全程马拉松 (42.195公里)</strong>：经典挑战，考验耐力与意志。</li>
-<li><strong>半程马拉松 (21.0975公里)</strong>：适合新手或想提升速度的跑者。</li>
-<li><strong>超马 (Ultra Marathon)</strong>：超过42公里的极限赛事，有时长达100公里甚至更多。</li>
-<li><strong>趣味跑 (Fun Run)</strong>：短距离，通常为5公里或10公里，注重参与和乐趣。</li>
-</ul>
-<p>每种马拉松都有独特魅力。你可以从<a href="https://www.runnersworld.com/races-places/a20823773/what-is-a-marathon/">Runner’s World</a>了解更多关于马拉松种类的信息。</p>
-<hr>
-<h2 id="全球著名马拉松赛事"><a href="#全球著名马拉松赛事" class="headerlink" title="全球著名马拉松赛事"></a>全球著名马拉松赛事</h2><p>马拉松已经成为全球现象，以下是一些不容错过的赛事：</p>
-<h3 id="1-波士顿马拉松"><a href="#1-波士顿马拉松" class="headerlink" title="1. 波士顿马拉松"></a>1. <strong>波士顿马拉松</strong></h3><ul>
-<li><strong>地点</strong>：美国波士顿</li>
-<li><strong>特点</strong>：世界上最古老的年度马拉松，始于1897年，以严格的资格要求著称。</li>
-<li><strong>官网</strong>：<a href="https://www.baa.org/races/boston-marathon">Boston Marathon</a></li>
-</ul>
-<p><img src="https://th.bing.com/th/id/OIF.XP74HBaoCipEMVfjZylVOw?rs=1&amp;pid=ImgDetMain" alt="波士顿马拉松"></p>
-<p><em>波士顿马拉松的热闹场景。图片来源：<a href="https://news.sina.com.cn/">sina.com.cn</a></em></p>
-<h3 id="2-伦敦马拉松"><a href="#2-伦敦马拉松" class="headerlink" title="2. 伦敦马拉松"></a>2. <strong>伦敦马拉松</strong></h3><ul>
-<li><strong>地点</strong>：英国伦敦</li>
-<li><strong>特点</strong>：平坦的赛道和慈善捐款传统，每年吸引数万名跑者。</li>
-<li><strong>官网</strong>：<a href="https://www.tcslondonmarathon.com/">London Marathon</a></li>
-</ul>
-<h3 id="3-北京马拉松"><a href="#3-北京马拉松" class="headerlink" title="3. 北京马拉松"></a>3. <strong>北京马拉松</strong></h3><ul>
-<li><strong>地点</strong>：中国北京</li>
-<li><strong>特点</strong>：从天安门广场起跑，融合历史与现代，是中国最具代表性的马拉松之一。</li>
-<li><strong>官网</strong>：<a href="http://www.beijing-marathon.com/">Beijing Marathon</a></li>
-</ul>
-<hr>
-<h2 id="马拉松精神：坚持与超越"><a href="#马拉松精神：坚持与超越" class="headerlink" title="马拉松精神：坚持与超越"></a>马拉松精神：坚持与超越</h2><p>马拉松不仅仅是跑步，更是一种生活哲学。它教会我们如何在疲惫时坚持，如何在逆境中超越自我。正如跑者常说：“马拉松的前半程靠腿，后半程靠心。”</p>
-<p><img src="https://png.pngtree.com/thumb_back/fw800/background/20240801/pngtree-silhouettes-of-runners-at-sunset-image_16122795.jpg" alt="跑者剪影"><br><em>夕阳下的跑者剪影，象征马拉松精神的坚韧。图片来源：<a href="https://zh.pngtree.com/">zh.pngtree.com</a></em></p>
-<p>想开始你的马拉松之旅？这里有一份新手训练指南：<a href="https://zhuanlan.zhihu.com/p/459562303">如何准备你的第一场马拉松</a>。</p>
-<hr>
-<h2 id="加入马拉松的行列"><a href="#加入马拉松的行列" class="headerlink" title="加入马拉松的行列"></a>加入马拉松的行列</h2><p>无论你是追求个人纪录，还是想与朋友一起享受奔跑的乐趣，马拉松都欢迎你。穿上跑鞋，迈出第一步吧！在这个博客中，我们会持续更新马拉松赛事资讯、训练技巧和跑者故事。</p>
-<p><strong>推荐资源：</strong></p>
-<ul>
-<li><a href="https://www.marathonsworld.com/artapp/share.php?cid=10">马拉松世界上的马拉松讨论</a>：看看全球跑者都在聊什么。</li>
-<li><a href="https://www.nike.com/running">跑步装备推荐</a>：从鞋子到服装，准备好你的装备。</li>
-</ul>
-<p><img src="https://pic3.zhimg.com/v2-b9622bdaf77bdaeeaffef20f92933d85_r.jpg" alt="跑步装备"><br><em>合适的装备是成功的关键。图片来源：<a href="https://zhuanlan.zhihu.com/">zhihu.com</a></em></p>
-<hr>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>马拉松是一场与自己的对话，是汗水与笑容的交织。希望这篇博客能激发你对马拉松的热情。留言告诉我：你最想参加哪场马拉松？或者，你已经跑过哪些难忘的赛道？</p>
-<p><em>奔跑吧，让每一步都成为传奇！</em></p>
-]]></content>
-      <categories>
-        <category>运动</category>
-      </categories>
-      <tags>
-        <tag>马拉松</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>特征值分解（Eigen Value Decomposition，EVD）、奇异值分解（Singular Value Decomposition，SVD）原理、公式推导及应用</title>
-    <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A002/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>机器学习</tag>
-        <tag>线性代数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>404 - 页面未找到</title>
-    <url>/404.html</url>
-    <content><![CDATA[<h1 id="404-迷路的小蝴蝶"><a href="#404-迷路的小蝴蝶" class="headerlink" title="404 - 迷路的小蝴蝶"></a>404 - 迷路的小蝴蝶</h1><p><img src="/img/404-butterfly.png" alt="404 Butterfly"></p>
-<p>哎呀！你似乎飞到了未知的领域，奶龙找不到这个页面了呢。<br>别慌张，试试以下选项吧：</p>
-<div class="btn-404">
-  <a href="/" class="btn-home">返回首页</a>
-  <a href="/archives/" class="btn-archives">探索文章</a>
-</div>
-
-<blockquote>
-<p>“迷路也是一种冒险，不是吗？”</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>关于</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/css/progress_bar.css</url>
-    <content><![CDATA[.pace {
-    -webkit-pointer-events: none;
-    pointer-events: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    z-index: 2000;
-    position: fixed;
-    margin: auto;
-    top: 4px;
-    left: 0;
-    right: 0;
-    height: 8px;
-    border-radius: 8px;
-    width: 7rem;
-    background: #eaecf2;
-    border: 1px #e3e8f7;
-    overflow: hidden
-}
-
-.pace-inactive .pace-progress {
-    opacity: 0;
-    transition: .3s ease-in
-}
-
-.pace .pace-progress {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    max-width: 200px;
-    position: absolute;
-    z-index: 2000;
-    display: block;
-    top: 0;
-    right: 100%;
-    height: 100%;
-    width: 100%;
-    /* linear-gradient(to right, #3494e6, #ec6ead) */
-    background: linear-gradient(to right, #43cea2, #3866ca);
-    animation: gradient 2s ease infinite;
-    background-size: 200%
-}
-
-.pace.pace-inactive {
-    opacity: 0;
-    transition: .3s;
-    top: -8px
-}
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/css/readPercent.css</url>
-    <content><![CDATA[/* 返回顶部 */
-
-button#go-up #percent {
-    display: none;
-    font-weight: bold;
-    font-size: 15px !important;
-}
-
-button#go-up span {
-    font-size: 12px!important;
-    margin-right: -1px;
-}
-
-/* 鼠标滑动到按钮上时显示返回顶部图标 */
-button#go-up:hover i {
-    display: block !important;
-}
-
-button#go-up:hover #percent {
-    display: none !important;
-}
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/css/custom.css</url>
-    <content><![CDATA[
-:root {
-  --trans-light: rgba(255, 255, 255, 0.8);
-  --trans-dark: rgba(25, 25, 25, 0.75);
-  --border-style: 1px solid rgb(169, 169, 169);
-  --backdrop-filter: blur(6px) saturate(150%);
-}
-
-
-/* 页脚与头图透明 */
-#footer {
-    background: transparent !important;
-  }
-  #page-header {
-    background: transparent !important;
-  }
+<search> 
   
-  /* 白天模式遮罩透明 */
-  #footer::before {
-    background: transparent !important;
-  }
-  #page-header::before {
-    background: transparent !important;
-  }
   
-  /* 夜间模式遮罩透明 */
-  [data-theme="dark"] #footer::before {
-    background: transparent !important;
-  }
-  [data-theme="dark"] #page-header::before {
-    background: transparent !important;
-  }
-
-  @font-face {
-    /* 为载入的字体取名字(随意) */
-    font-family: 'tianxingti';	
-    /* 字体文件地址(相对或者绝对路径都可以) */
-    src: url(/font/字魂白鸽天行体.ttf);
-    /* 定义加粗样式(加粗多少) */
-    font-weight: normal;
-    /* 定义字体样式(斜体/非斜体) */
-    font-style: normal;
-    /* 定义显示样式 */
-    font-display: block;
-  }
-
-
-  /* 一级菜单居中 */
-#nav .menus_items {
-  position: absolute !important;
-  width: fit-content !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-}
-/* 子菜单横向展示 */
-#nav .menus_items .menus_item:hover .menus_item_child {
-  display: flex !important;
-}
-/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
-.menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -38px;
-}
-
-
-/* 日间模式不生效 */
-[data-theme="light"] #site-name,
-[data-theme="light"] #site-title,
-[data-theme="light"] #site-subtitle,
-[data-theme="light"] #post-info {
-  animation: none;
-}
-/* 夜间模式生效 */
-[data-theme="dark"] #site-name,
-[data-theme="dark"] #site-title {
-  animation: light_15px 10s linear infinite;
-}
-[data-theme="dark"] #site-subtitle {
-  animation: light_10px 10s linear infinite;
-}
-[data-theme="dark"] #post-info {
-  animation: light_5px 10s linear infinite;
-}
-/* 关键帧描述 */
-@keyframes light_15px {
-  0% {
-    text-shadow: #5636ed 0 0 15px;
-  }
-  12.5% {
-    text-shadow: #11ee5e 0 0 15px;
-  }
-  25% {
-    text-shadow: #f14747 0 0 15px;
-  }
-  37.5% {
-    text-shadow: #f1a247 0 0 15px;
-  }
-  50% {
-    text-shadow: #f1ee47 0 0 15px;
-  }
-  50% {
-    text-shadow: #b347f1 0 0 15px;
-  }
-  62.5% {
-    text-shadow: #002afa 0 0 15px;
-  }
-  75% {
-    text-shadow: #ed709b 0 0 15px;
-  }
-  87.5% {
-    text-shadow: #39c5bb 0 0 15px;
-  }
-  100% {
-    text-shadow: #5636ed 0 0 15px;
-  }
-}
-
-@keyframes light_10px {
-  0% {
-    text-shadow: #5636ed 0 0 10px;
-  }
-  12.5% {
-    text-shadow: #11ee5e 0 0 10px;
-  }
-  25% {
-    text-shadow: #f14747 0 0 10px;
-  }
-  37.5% {
-    text-shadow: #f1a247 0 0 10px;
-  }
-  50% {
-    text-shadow: #f1ee47 0 0 10px;
-  }
-  50% {
-    text-shadow: #b347f1 0 0 10px;
-  }
-  62.5% {
-    text-shadow: #002afa 0 0 10px;
-  }
-  75% {
-    text-shadow: #ed709b 0 0 10px;
-  }
-  87.5% {
-    text-shadow: #39c5bb 0 0 10px;
-  }
-  100% {
-    text-shadow: #5636ed 0 0 10px;
-  }
-}
-
-@keyframes light_5px {
-  0% {
-    text-shadow: #5636ed 0 0 5px;
-  }
-  12.5% {
-    text-shadow: #11ee5e 0 0 5px;
-  }
-  25% {
-    text-shadow: #f14747 0 0 5px;
-  }
-  37.5% {
-    text-shadow: #f1a247 0 0 15px;
-  }
-  50% {
-    text-shadow: #f1ee47 0 0 5px;
-  }
-  50% {
-    text-shadow: #b347f1 0 0 5px;
-  }
-  62.5% {
-    text-shadow: #002afa 0 0 5px;
-  }
-  75% {
-    text-shadow: #ed709b 0 0 5px;
-  }
-  87.5% {
-    text-shadow: #39c5bb 0 0 5px;
-  }
-  100% {
-    text-shadow: #5636ed 0 0 5px;
-  }
-}
-
-
-/* 侧边栏个人信息卡片动态渐变色 */
-#aside-content > .card-widget.card-info {
-  background: linear-gradient(
-    -45deg,
-    #e8d8b9,
-    #eccec5,
-    #a3e9eb,
-    #bdbdf0,
-    #eec1ea
-  );
-  box-shadow: 0 0 5px rgb(66, 68, 68);
-  position: relative;
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 10s ease infinite;
-  -moz-animation: Gradient 10s ease infinite;
-  animation: Gradient 10s ease infinite !important;
-}
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-/* 黑夜模式适配 */
-[data-theme="dark"] #aside-content > .card-widget.card-info {
-  background: #191919ee;
-}
-
-/* 个人信息Follow me按钮 */
-#aside-content > .card-widget.card-info > #card-info-btn {
-  background-color: #3eb8be;
-  border-radius: 8px;
-}
-
-#cursor {
-  position: fixed;
-  width: 24px;
-  height: 24px;
-  background: rgb(85, 163, 223);
-  border-radius: 8px;
-  opacity: 0.25;
-  z-index: 10086;
-  pointer-events: none;
-  transition: 0.2s ease-in-out;
-  transition-property: background, opacity, transform;
-  /* 调整为 -50% 以居中 */
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-}
-
-#cursor.hidden {
-  opacity: 0;
-}
-
-#cursor.hover {
-  opacity: 0.1;
-  /* 保持居中并缩放 */
-  transform: translate(-50%, -50%) scale(2.5);
-  -webkit-transform: translate(-50%, -50%) scale(2.5);
-  -moz-transform: translate(-50%, -50%) scale(2.5);
-  -ms-transform: translate(-50%, -50%) scale(2.5);
-  -o-transform: translate(-50%, -50%) scale(2.5);
-}
-
-#cursor.active {
-  opacity: 0.5;
-  /* 保持居中并缩放 */
-  transform: translate(-50%, -50%) scale(0.5);
-  -webkit-transform: translate(-50%, -50%) scale(0.5);
-  -moz-transform: translate(-50%, -50%) scale(0.5);
-  -ms-transform: translate(-50%, -50%) scale(0.5);
-  -o-transform: translate(-50%, -50%) scale(0.5);
-}
-
-
-
-/* 首页文章卡片 */
-#recent-posts > .recent-post-item {
-  background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
-  border-radius: 25px;
-  border: var(--border-style);
-}
-
-/* 首页侧栏卡片 */
-#aside-content .card-widget {
-  background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
-  border-radius: 18px;
-  border: var(--border-style);
-}
-
-/* 文章页、归档页、普通页面 */
-div#post,
-div#page,
-div#archive {
-  background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
-  border: var(--border-style);
-  border-radius: 20px;
-}
-
-/* 导航栏 */
-#page-header.nav-fixed #nav {
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: var(--backdrop-filter);
-}
-
-[data-theme="dark"] #page-header.nav-fixed #nav {
-  background: rgba(0, 0, 0, 0.7) !important;
-}
-
-/* 夜间模式遮罩 */
-[data-theme="dark"] #recent-posts > .recent-post-item,
-[data-theme="dark"] #aside-content .card-widget,
-[data-theme="dark"] div#post,
-[data-theme="dark"] div#archive,
-[data-theme="dark"] div#page {
-  background: var(--trans-dark);
-}
-
-
-/* 夜间模式页脚页头遮罩透明 */
-[data-theme="dark"] #footer::before {
-  background: transparent !important;
-}
-[data-theme="dark"] #page-header::before {
-  background: transparent !important;
-}
-
-/* 阅读模式 */
-.read-mode #aside-content .card-widget {
-  background: rgba(158, 204, 171, 0.5) !important;
-}
-.read-mode div#post {
-  background: rgba(158, 204, 171, 0.5) !important;
-}
-
-/* 夜间模式下的阅读模式 */
-[data-theme="dark"] .read-mode #aside-content .card-widget {
-  background: rgba(25, 25, 25, 0.9) !important;
-  color: #ffffff;
-}
-[data-theme="dark"] .read-mode div#post {
-  background: rgba(25, 25, 25, 0.9) !important;
-  color: #ffffff;
-}
-
-/*哔哩哔哩视频适配*/
-.aspect-ratio {
-  position: relative;
-  width: 90%;
-  height: auto;
-  padding-bottom: 75%;
-  margin: 3% auto;
-  text-align: center;
-}
-.aspect-ratio iframe {
-  position: absolute;
-  width: 100%;
-  height: 86%;
-  left: 0;
-  top: 0;
-}
-
-
-/* 文章页H1-H6图标样式效果 */
-/* 控制风车转动速度 4s那里可以自己调节快慢 */
-h1::before,
-h2::before,
-h3::before,
-h4::before,
-h5::before,
-h6::before {
-  -webkit-animation: ccc 4s linear infinite;
-  animation: ccc 4s linear infinite;
-}
-/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
-@-webkit-keyframes ccc {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(-1turn);
-    transform: rotate(-1turn);
-  }
-}
-@keyframes ccc {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(-1turn);
-    transform: rotate(-1turn);
-  }
-}
-/* 设置风车颜色 */
-#content-inner.layout h1::before {
-  color: #ef50a8;
-  margin-left: -1.55rem;
-  font-size: 1.3rem;
-  margin-top: -0.23rem;
-}
-#content-inner.layout h2::before {
-  color: #fb7061;
-  margin-left: -1.35rem;
-  font-size: 1.1rem;
-  margin-top: -0.12rem;
-}
-#content-inner.layout h3::before {
-  color: #ffbf00;
-  margin-left: -1.22rem;
-  font-size: 0.95rem;
-  margin-top: -0.09rem;
-}
-#content-inner.layout h4::before {
-  color: #a9e000;
-  margin-left: -1.05rem;
-  font-size: 0.8rem;
-  margin-top: -0.09rem;
-}
-#content-inner.layout h5::before {
-  color: #57c850;
-  margin-left: -0.9rem;
-  font-size: 0.7rem;
-  margin-top: 0rem;
-}
-#content-inner.layout h6::before {
-  color: #5ec1e0;
-  margin-left: -0.9rem;
-  font-size: 0.66rem;
-  margin-top: 0rem;
-}
-/* s设置风车hover动效 6s那里可以自己调节快慢*/
-#content-inner.layout h1:hover,
-#content-inner.layout h2:hover,
-#content-inner.layout h3:hover,
-#content-inner.layout h4:hover,
-#content-inner.layout h5:hover,
-#content-inner.layout h6:hover {
-  color: var(--theme-color);
-}
-#content-inner.layout h1:hover::before,
-#content-inner.layout h2:hover::before,
-#content-inner.layout h3:hover::before,
-#content-inner.layout h4:hover::before,
-#content-inner.layout h5:hover::before,
-#content-inner.layout h6:hover::before {
-  color: var(--theme-color);
-  -webkit-animation: ccc 6s linear infinite;
-  animation: ccc 6s linear infinite;
-}]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/css/runtime.css</url>
-    <content><![CDATA[#workboard {
-    font-size: 13px;
-    font-weight: 700;
-}]]></content>
-  </entry>
-  <entry>
-    <title>图库</title>
-    <url>/images/index.html</url>
-    <content><![CDATA[<div class="gallery-group-main">
-
-<figure class="gallery-group">
-    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/default_cover_61.webp' alt="Group Image Gallery">
-    <figcaption>
-      <div class="gallery-group-name">封面专区</div>
-      <p>本站用作文章封面的图片，不保证分辨率</p>
-      <a href='/Gallery/cover'></a>
-    </figcaption>
-  </figure>
-
-<figure class="gallery-group">
-    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/dm11.webp' alt="Group Image Gallery">
-    <figcaption>
-      <div class="gallery-group-name">壁纸专区</div>
-      <p>收藏的一些的背景与壁纸，分辨率很高</p>
-      <a href='/Gallery/wallpaper'></a>
-    </figcaption>
-  </figure>
-</div>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/cat.js</url>
-    <content><![CDATA[if (document.body.clientWidth > 992) {
-    function getBasicInfo() {
-        /* 窗口高度 */
-        var ViewH = $(window).height();
-        /* document高度 */
-        var DocH = $("body")[0].scrollHeight;
-        /* 滚动的高度 */
-        var ScrollTop = $(window).scrollTop();
-        /* 可滚动的高度 */
-        var S_V = DocH - ViewH;
-        var Band_H = ScrollTop / (DocH - ViewH) * 100;
-        return {
-            ViewH: ViewH,
-            DocH: DocH,
-            ScrollTop: ScrollTop,
-            Band_H: Band_H,
-            S_V: S_V
-        }
-    };
-    function show(basicInfo) {
-        if (basicInfo.ScrollTop > 0.001) {
-            $(".neko").css('display', 'block');
-        } else {
-            $(".neko").css('display', 'none');
-        }
-    }
-    (function ($) {
-        $.fn.nekoScroll = function (option) {
-            var defaultSetting = {
-                top: '0',
-                scroWidth: 6 + 'px',
-                z_index: 9999,
-                zoom: 0.9,
-                borderRadius: 5 + 'px',
-                right: 60 + 'px',
-                // 这里可以换为你喜欢的图片，例如我就换为了雪人，但是要抠图
-                nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
-                hoverMsg: "喵喵喵~",
-                color: "#6f42c1",
-                during: 500,
-                blog_body: "body",
-            };
-            var setting = $.extend(defaultSetting, option);
-            var getThis = this.prop("className") !== "" ? "." + this.prop("className") : this.prop("id") !== "" ? "#" +
-                this.prop("id") : this.prop("nodeName");
-            if ($(".neko").length == 0) {
-                this.after("<div class=\"neko\" id=" + setting.nekoname + " data-msg=\"" + setting.hoverMsg + "\"></div>");
-            }
-            let basicInfo = getBasicInfo();
-            $(getThis)
-                .css({
-                    'position': 'fixed',
-                    'width': setting.scroWidth,
-                    'top': setting.top,
-                    'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',
-                    'z-index': setting.z_index,
-                    'background-color': setting.bgcolor,
-                    "border-radius": setting.borderRadius,
-                    'right': setting.right,
-                    'background-image': 'url(' + setting.scImg + ')',
-                    'background-image': '-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent)', 'border-radius': '2em',
-                    'background-size': 'contain'
-                });
-            $("#" + setting.nekoname)
-                .css({
-                    'position': 'fixed',
-                    'top': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 - 50 + 'px',
-                    'z-index': setting.z_index * 10,
-                    'right': setting.right,
-                    'background-image': 'url(' + setting.nekoImg + ')',
-                });
-            show(getBasicInfo());
-            $(window)
-                .scroll(function () {
-                    let basicInfo = getBasicInfo();
-                    show(basicInfo);
-                    $(getThis)
-                        .css({
-                            'position': 'fixed',
-                            'width': setting.scroWidth,
-                            'top': setting.top,
-                            'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',
-                            'z-index': setting.z_index,
-                            'background-color': setting.bgcolor,
-                            "border-radius": setting.borderRadius,
-                            'right': setting.right,
-                            'background-image': 'url(' + setting.scImg + ')',
-                            'background-image': '-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent)', 'border-radius': '2em',
-                            'background-size': 'contain'
-                        });
-                    $("#" + setting.nekoname)
-                        .css({
-                            'position': 'fixed',
-                            'top': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 - 50 + 'px',
-                            'z-index': setting.z_index * 10,
-                            'right': setting.right,
-                            'background-image': 'url(' + setting.nekoImg + ')',
-                        });
-                    if (basicInfo.ScrollTop == basicInfo.S_V) {
-                        $("#" + setting.nekoname)
-                            .addClass("showMsg")
-                    } else {
-                        $("#" + setting.nekoname)
-                            .removeClass("showMsg");
-                        $("#" + setting.nekoname)
-                            .attr("data-msg", setting.hoverMsg);
-                    }
-                });
-            this.click(function (e) {
-                btf.scrollToDest(0, 500)
-            });
-            $("#" + setting.nekoname)
-                .click(function () {
-                    btf.scrollToDest(0, 500)
-                });
-            return this;
-        }
-    })(jQuery);
-
-    $(document).ready(function () {
-        //部分自定义
-        $("#myscoll").nekoScroll({
-            bgcolor: 'rgb(0 0 0 / .5)', //背景颜色，没有绳子背景图片时有效
-            borderRadius: '2em',
-            zoom: 0.9
-        }
-        );
-        //自定义（去掉以下注释，并注释掉其他的查看效果）
-        /*
-        $("#myscoll").nekoScroll({
-            nekoname:'neko1', //nekoname，相当于id
-            nekoImg:'img/猫咪.png', //neko的背景图片
-            scImg:"img/绳1.png", //绳子的背景图片
-            bgcolor:'#1e90ff', //背景颜色，没有绳子背景图片时有效
-            zoom:0.9, //绳子长度的缩放值
-            hoverMsg:'你好~喵', //鼠标浮动到neko上方的对话框信息
-            right:'100px', //距离页面右边的距离
-            fontFamily:'楷体', //对话框字体
-            fontSize:'14px', //对话框字体的大小
-            color:'#1e90ff', //对话框字体颜色
-            scroWidth:'8px', //绳子的宽度
-            z_index:100, //不用解释了吧
-            during:1200, //从顶部到底部滑动的时长
-        });
-        */
-    })
-}]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/readPercent.js</url>
-    <content><![CDATA[window.onscroll = percent;// 执行函数
-// 页面百分比
-function percent() {
-    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度
-        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度
-        result = Math.round(a / b * 100), // 计算百分比
-        up = document.querySelector("#go-up") // 获取按钮
-
-    if (result <= 95) {
-        up.childNodes[0].style.display = 'none'
-        up.childNodes[1].style.display = 'block'
-        up.childNodes[1].innerHTML = result;
-    } else {
-        up.childNodes[1].style.display = 'none'
-        up.childNodes[0].style.display = 'block'
-    }
-}]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/cursor.js</url>
-    <content><![CDATA[var CURSOR;
-
-Math.lerp = (a, b, n) => (1 - n) * a + n * b;
-
-const getStyle = (el, attr) => {
-    try {
-        return window.getComputedStyle
-            ? window.getComputedStyle(el)[attr]
-            : el.currentStyle[attr];
-    } catch (e) {}
-    return "";
-};
-
-class Cursor {
-    constructor() {
-        this.pos = {curr: null, prev: null};
-        this.pt = [];
-        this.create();
-        this.init();
-        this.render();
-    }
-
-    move(left, top) {
-        this.cursor.style["left"] = `${left}px`;
-        this.cursor.style["top"] = `${top}px`;
-    }
-
-    create() {
-        if (!this.cursor) {
-            this.cursor = document.createElement("div");
-            this.cursor.id = "cursor";
-            this.cursor.classList.add("hidden");
-            document.body.append(this.cursor);
-        }
-
-        var el = document.getElementsByTagName('*');
-        for (let i = 0; i < el.length; i++)
-            if (getStyle(el[i], "cursor") == "pointer")
-                this.pt.push(el[i].outerHTML);
-
-        document.body.appendChild((this.scr = document.createElement("style")));
-        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5' fill='rgb(0, 255, 8)'/></svg>") 4 4, auto}`;
-    }
-
-    refresh() {
-        this.scr.remove();
-        this.cursor.classList.remove("hover");
-        this.cursor.classList.remove("active");
-        this.pos = {curr: null, prev: null};
-        this.pt = [];
-
-        this.create();
-        this.init();
-        this.render();
-    }
-
-    init() {
-        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
-        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
-        document.onmousemove  = e => {
-            if (this.pos.curr == null) this.move(e.clientX, e.clientY); // 移除 -8 偏移
-            this.pos.curr = {x: e.clientX, y: e.clientY}; // 更新为原始坐标
-            this.cursor.classList.remove("hidden");
-        };
-        document.onmouseenter = e => this.cursor.classList.remove("hidden");
-        document.onmouseleave = e => this.cursor.classList.add("hidden");
-        document.onmousedown  = e => this.cursor.classList.add("active");
-        document.onmouseup    = e => this.cursor.classList.remove("active");
-    }
-
-    render() {
-        if (this.pos.prev) {
-            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);
-            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);
-            this.move(this.pos.prev.x, this.pos.prev.y);
-        } else {
-            this.pos.prev = this.pos.curr;
-        }
-        requestAnimationFrame(() => this.render());
-    }
-}
-
-(() => {
-    CURSOR = new Cursor();
-})();]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/css/universe.css</url>
-    <content><![CDATA[/* 背景宇宙星光  */
-#universe{
-    display: block;
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */
-    z-index: -1;
-  }]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/runtime.js</url>
-    <content><![CDATA[/* 页面计时器 start */
-let now = new Date();
-function createtime() {
-    // 当前时间
-    now.setTime(now.getTime() + 1000);
-    let start = new Date("05/14/2023 00:00:00"); // 旅行者1号开始计算的时间
-    let dis = Math.trunc(23400000000 + (now - start) / 1000 * 17); // 距离=秒数*速度 记住转换毫秒
-    let unit = (dis / 149600000).toFixed(6); // 天文单位
-
-    // 网站诞生时间
-    let grt = new Date("03/01/2025 00:00:00");
-    let days = (now - grt) / 1e3 / 60 / 60 / 24;
-    let dnum = Math.floor(days);
-    let hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum;
-    let hnum = Math.floor(hours);
-    let minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum;
-    let mnum = Math.floor(minutes);
-    let seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum;
-    let snum = Math.round(seconds);
-
-    let currentTimeHtml = "";
-    currentTimeHtml = `<div style="font-size:13px;font-weight:bold">
-        本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 
-        <i id="heartbeat" class="fas fa-heartbeat"></i><br>
-        旅行者 1 号当前距离地球 ${dis} 千米,约为 ${unit} 个天文单位 🚀</div>
-        <font size=2px>再看看那个光点,它就在这里,这是家园,这是我们—— 
-        你所爱的每一个人,你认识的每一个人,你听说过的每一个人<br>曾经有过的每一个人,
-        都在它上面度过他们的一生⭐</font>`;
     
-    document.getElementById("workboard") &&
-        (document.getElementById("workboard").innerHTML = currentTimeHtml);
-}
-
-// 设置重复执行函数，周期1000ms
-setInterval(() => {
-    createtime();
-}, 1000);]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/universe.js</url>
-    <content><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};
-dark()]]></content>
-  </entry>
-  <entry>
-    <title>学习</title>
-    <url>/learn/index.html</url>
-    <content><![CDATA[<p>你好，这是学习</p>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/css/cat.css</url>
-    <content><![CDATA[
-body::-webkit-scrollbar {
-    width: 0;
-}
-
-.neko {
-    width: 64px;
-    height: 64px;
-    background-image: url("https://bu.dusays.com/2022/07/20/62d812db74be9.png");
-    position: absolute;
-    right: 32px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    transform: translateX(50%);
-    cursor: pointer;
-    font-family: tzy;
-    font-weight: 600;
-    font-size: 16px;
-    color: #6f42c1;
-    display: none;
-}
-
-.neko::after {
-    display: none;
-    width: 100px;
-    height: 100px;
-    background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");
-    background-size: contain;
-    z-index: 9999;
-    position: absolute;
-    right: 50%;
-    text-align: center;
-    line-height: 100px;
-    top: -115%;
-
-}
-
-.neko.showMsg::after {
-    content: attr(data-msg);
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.neko:hover::after {
-    content: attr(data-msg);
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.neko.fontColor::after {
-    color: #333;
-}
-
-/**
- * @description: 滚动条样式  跟猫二选一
- */
-@media screen and (max-width:992px) {
-    ::-webkit-scrollbar {
-        width: 8px !important;
-        height: 8px !important
-    }
-
-    ::-webkit-scrollbar-track {
-        border-radius: 2em;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background-color: rgb(255 255 255 / .3);
-        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
-        border-radius: 2em
-    }
-
-    ::-webkit-scrollbar-corner {
-        background-color: transparent
-    }
-}]]></content>
-  </entry>
-  <entry>
-    <title>生活</title>
-    <url>/life/index.html</url>
-    <content><![CDATA[<p>你好，这是生活</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/link/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>封面</title>
-    <url>/Gallery/cover/index.html</url>
-    <content><![CDATA[<p>好康的封面<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://img.ixintu.com/download/jpg/201911/f5042511abeca72ccbd106b3104da260.jpg!con0","alt":"p1","title":""},{"url":"https://th.bing.com/th/id/R.b43caf4b635bdd2f3b2f6dbcfd225779?rik=%2fNhd%2bdj5P2u38Q&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20181003%2f7b4620aebd93484789ffa9b8101157e7.jpeg&ehk=CuCmIcG43ZBwm1LN29wOIBEwsAG%2f9eZLxCbBWPnf3yU%3d&risl=&pid=ImgRaw&r=0","alt":"p2","title":""},{"url":"https://www.keaitupian.cn/cjpic/frombd/1/253/2701183717/1035152779.jpg","alt":"p3","title":""},{"url":"https://file.moyublog.com/d/file/2019-11-25/1a34f72f9fdb2962c797158fd545d5ab.png","alt":"p4","title":""},{"url":"https://img.keaitupian.cn/newupload/05/1684834658291825.jpg","alt":"p5","title":""}]</div>
-  </div></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>壁纸</title>
-    <url>/Gallery/wallpaper/index.html</url>
-    <content><![CDATA[<p>好康的壁纸<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://source.fomal.cc/img/default_cover_1.webp","alt":"p1","title":""},{"url":"https://source.fomal.cc/img/default_cover_2.webp","alt":"p2","title":""},{"url":"https://source.fomal.cc/img/default_cover_3.webp","alt":"p3","title":""},{"url":"https://source.fomal.cc/img/default_cover_4.webp","alt":"p4","title":""},{"url":"https://source.fomal.cc/img/default_cover_5.webp","alt":"p5","title":""},{"url":"https://source.fomal.cc/img/default_cover_6.webp","alt":"p6","title":""},{"url":"https://source.fomal.cc/img/default_cover_7.webp","alt":"p7","title":""},{"url":"https://source.fomal.cc/img/default_cover_8.webp","alt":"p8","title":""},{"url":"https://source.fomal.cc/img/default_cover_9.webp","alt":"p9","title":""},{"url":"https://source.fomal.cc/img/default_cover_10.webp","alt":"p10","title":""},{"url":"https://source.fomal.cc/img/default_cover_11.webp","alt":"p11","title":""},{"url":"https://source.fomal.cc/img/default_cover_12.webp","alt":"p12","title":""}]</div>
-  </div></p>
-]]></content>
-  </entry>
+    <entry>
+      <title>特征值分解（Eigen Value Decomposition，EVD）、奇异值分解（Singular Value Decomposition，SVD）原理、公式推导及应用</title>
+      <link href="/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A002/"/>
+      <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A002/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 </tag>
+            
+            <tag> 线性代数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）</title>
+      <link href="/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A001/"/>
+      <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A001/</url>
+      
+        <content type="html"><![CDATA[<h1 id="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"><a href="#梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系" class="headerlink" title="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"></a>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 </tag>
+            
+            <tag> 微积分 </tag>
+            
+            <tag> 线性代数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>马拉松简介</title>
+      <link href="/2025/03/10/%E9%A9%AC%E6%8B%89%E6%9D%BE/"/>
+      <url>/2025/03/10/%E9%A9%AC%E6%8B%89%E6%9D%BE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="奔跑的灵魂：探索马拉松文化的魅力"><a href="#奔跑的灵魂：探索马拉松文化的魅力" class="headerlink" title="奔跑的灵魂：探索马拉松文化的魅力"></a>奔跑的灵魂：探索马拉松文化的魅力</h1><p><img src="https://th.bing.com/th/id/R.4d3f4331901465261cf4d2c91c8ca819?rik=tHjhhnDC9uuhng&amp;riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20180207%2ff653bcbd5b824d11b4b5fe8c0c4398ed.jpeg&amp;ehk=u0H6b9lWh3ZPkUVAxhfP0KbtDRCiV82v%2fbgL54iIjDg%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="马拉松跑者"><br><em>一群跑者在晨光中奔跑，象征着马拉松的活力与坚持。图片来源：<a href="https://www.sohu.com">sohu.com</a></em></p><p>欢迎来到这个关于马拉松的博客！在这里，我们将一起探索马拉松的起源、精神以及它如何成为全球热潮。无论你是资深跑者还是初次尝试42.195公里的新手，这篇文章将带你走进马拉松的精彩世界。</p><hr><h2 id="马拉松的起源：从古希腊到现代"><a href="#马拉松的起源：从古希腊到现代" class="headerlink" title="马拉松的起源：从古希腊到现代"></a>马拉松的起源：从古希腊到现代</h2><p>马拉松的故事始于公元前490年的古希腊。传说中，信使菲迪皮茨（Pheidippides）从马拉松战场跑到雅典，传递希腊战胜波斯的喜讯，全程约42公里。完成使命后，他因体力耗尽而倒下。这个感人的故事催生了现代马拉松运动。</p><p>1896年，第一届现代奥运会在雅典举办，马拉松正式成为比赛项目，距离被标准化为42.195公里。想了解更多历史细节？点击这里查看：<a href="https://baijiahao.baidu.com/s?id=1775112601581669087#:~:text=%E9%A9%AC%E6%8B%89%E6%9D%BE%E6%AF%94%E8%B5%9B%E8%B5%B7%E6%BA%90%E4%BA%8E%E5%8F%A4%E5%B8%8C%E8%85%8A%EF%BC%8C%E4%BC%A0%E8%AF%B4%E5%85%AC%E5%85%83%E5%89%8D490%E5%B9%B4%EF%BC%8C%E5%A3%AB%E5%85%B5%E4%B8%BA%E4%BC%A0%E9%80%92%E6%88%98%E8%83%9C%E6%B6%88%E6%81%AF%E4%BB%8E%E9%A9%AC%E6%8B%89%E6%9D%BE%E5%A5%94%E5%90%91%E9%9B%85%E5%85%B8%E3%80%82%20%E7%8E%B0%E4%BB%A3%E5%A5%A5%E8%BF%90%E4%BC%9A%E5%B0%86%E5%85%B6%E4%BD%9C%E4%B8%BA%E9%A1%B9%E7%9B%AE%EF%BC%8C%E7%BA%AA%E5%BF%B5%E5%8E%86%E5%8F%B2%E4%BC%A0%E5%A5%87%EF%BC%8C%E8%B5%8B%E4%BA%88%E9%A9%AC%E6%8B%89%E6%9D%BE%E6%B7%B1%E5%88%BB%E7%9A%84%E6%84%8F%E4%B9%89%E3%80%82%20%E4%BC%A0%E8%AF%B4%E7%9A%84%E8%B5%B7%E6%BA%90,%E9%A9%AC%E6%8B%89%E6%9D%BE%E6%AF%94%E8%B5%9B%E7%9A%84%E8%B5%B7%E6%BA%90%E5%8F%AF%E4%BB%A5%E8%BF%BD%E6%BA%AF%E5%88%B0%E5%8F%A4%E5%B8%8C%E8%85%8A%E3%80%82%20%E4%B8%80%E4%B8%AA%E8%91%97%E5%90%8D%E7%9A%84%E4%BC%A0%E8%AF%B4%E5%B0%86%E7%9B%AE%E5%85%89%E6%8A%95%E5%90%91%E5%85%AC%E5%85%83%E5%89%8D490%E5%B9%B4%EF%BC%8C%E5%BD%93%E6%97%B6%E5%B8%8C%E8%85%8A%E9%9B%85%E5%85%B8%E4%B8%8E%E6%B3%A2%E6%96%AF%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%9B%BD%E4%B9%8B%E9%97%B4%E7%88%86%E5%8F%91%E6%88%98%E4%BA%89%E3%80%82%20%E5%9C%A8%E9%A9%AC%E6%8B%89%E6%9D%BE%E5%B9%B3%E5%8E%9F%E4%B8%8A%EF%BC%8C%E5%8F%A4%E5%B8%8C%E8%85%8A%E5%A3%AB%E5%85%B5%E5%A5%8B%E5%8B%87%E4%BD%9C%E6%88%98%EF%BC%8C%E6%88%90%E5%8A%9F%E5%87%BB%E9%80%80%E6%B3%A2%E6%96%AF%E5%86%9B%E9%98%9F%E3%80%82">马拉松的起源与演变</a>。</p><p><img src="https://ts1.tc.mm.bing.net/th/id/R-C.e1b5716bd64ec3ecbf2e92718cfcb532?rik=Jgq3LV7J7Lzw6g&amp;riu=http%3a%2f%2fp1.img.cctvpic.com%2f20121122%2fimages%2f1353555941426_1353555941426_r.jpg&amp;ehk=nNl3oh0Y86rFBKU16JdFUrUCAHsWYUtQvbaACX0Yy9M%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0&amp;sres=1&amp;sresct=1" alt="古希腊雕像"></p><p><em>古希腊雕像，象征着马拉松的历史根源。图片来源：<a href="https://sports.cntv.cn/">cntv.cn</a></em></p><hr><h2 id="马拉松的种类与挑战"><a href="#马拉松的种类与挑战" class="headerlink" title="马拉松的种类与挑战"></a>马拉松的种类与挑战</h2><p>马拉松不仅仅是42.195公里的全程马拉松，还有各种形式，适合不同水平的跑者：</p><ul><li><strong>全程马拉松 (42.195公里)</strong>：经典挑战，考验耐力与意志。</li><li><strong>半程马拉松 (21.0975公里)</strong>：适合新手或想提升速度的跑者。</li><li><strong>超马 (Ultra Marathon)</strong>：超过42公里的极限赛事，有时长达100公里甚至更多。</li><li><strong>趣味跑 (Fun Run)</strong>：短距离，通常为5公里或10公里，注重参与和乐趣。</li></ul><p>每种马拉松都有独特魅力。你可以从<a href="https://www.runnersworld.com/races-places/a20823773/what-is-a-marathon/">Runner’s World</a>了解更多关于马拉松种类的信息。</p><hr><h2 id="全球著名马拉松赛事"><a href="#全球著名马拉松赛事" class="headerlink" title="全球著名马拉松赛事"></a>全球著名马拉松赛事</h2><p>马拉松已经成为全球现象，以下是一些不容错过的赛事：</p><h3 id="1-波士顿马拉松"><a href="#1-波士顿马拉松" class="headerlink" title="1. 波士顿马拉松"></a>1. <strong>波士顿马拉松</strong></h3><ul><li><strong>地点</strong>：美国波士顿</li><li><strong>特点</strong>：世界上最古老的年度马拉松，始于1897年，以严格的资格要求著称。</li><li><strong>官网</strong>：<a href="https://www.baa.org/races/boston-marathon">Boston Marathon</a></li></ul><p><img src="https://th.bing.com/th/id/OIF.XP74HBaoCipEMVfjZylVOw?rs=1&amp;pid=ImgDetMain" alt="波士顿马拉松"></p><p><em>波士顿马拉松的热闹场景。图片来源：<a href="https://news.sina.com.cn/">sina.com.cn</a></em></p><h3 id="2-伦敦马拉松"><a href="#2-伦敦马拉松" class="headerlink" title="2. 伦敦马拉松"></a>2. <strong>伦敦马拉松</strong></h3><ul><li><strong>地点</strong>：英国伦敦</li><li><strong>特点</strong>：平坦的赛道和慈善捐款传统，每年吸引数万名跑者。</li><li><strong>官网</strong>：<a href="https://www.tcslondonmarathon.com/">London Marathon</a></li></ul><h3 id="3-北京马拉松"><a href="#3-北京马拉松" class="headerlink" title="3. 北京马拉松"></a>3. <strong>北京马拉松</strong></h3><ul><li><strong>地点</strong>：中国北京</li><li><strong>特点</strong>：从天安门广场起跑，融合历史与现代，是中国最具代表性的马拉松之一。</li><li><strong>官网</strong>：<a href="http://www.beijing-marathon.com/">Beijing Marathon</a></li></ul><hr><h2 id="马拉松精神：坚持与超越"><a href="#马拉松精神：坚持与超越" class="headerlink" title="马拉松精神：坚持与超越"></a>马拉松精神：坚持与超越</h2><p>马拉松不仅仅是跑步，更是一种生活哲学。它教会我们如何在疲惫时坚持，如何在逆境中超越自我。正如跑者常说：“马拉松的前半程靠腿，后半程靠心。”</p><p><img src="https://png.pngtree.com/thumb_back/fw800/background/20240801/pngtree-silhouettes-of-runners-at-sunset-image_16122795.jpg" alt="跑者剪影"><br><em>夕阳下的跑者剪影，象征马拉松精神的坚韧。图片来源：<a href="https://zh.pngtree.com/">zh.pngtree.com</a></em></p><p>想开始你的马拉松之旅？这里有一份新手训练指南：<a href="https://zhuanlan.zhihu.com/p/459562303">如何准备你的第一场马拉松</a>。</p><hr><h2 id="加入马拉松的行列"><a href="#加入马拉松的行列" class="headerlink" title="加入马拉松的行列"></a>加入马拉松的行列</h2><p>无论你是追求个人纪录，还是想与朋友一起享受奔跑的乐趣，马拉松都欢迎你。穿上跑鞋，迈出第一步吧！在这个博客中，我们会持续更新马拉松赛事资讯、训练技巧和跑者故事。</p><p><strong>推荐资源：</strong></p><ul><li><a href="https://www.marathonsworld.com/artapp/share.php?cid=10">马拉松世界上的马拉松讨论</a>：看看全球跑者都在聊什么。</li><li><a href="https://www.nike.com/running">跑步装备推荐</a>：从鞋子到服装，准备好你的装备。</li></ul><p><img src="https://pic3.zhimg.com/v2-b9622bdaf77bdaeeaffef20f92933d85_r.jpg" alt="跑步装备"><br><em>合适的装备是成功的关键。图片来源：<a href="https://zhuanlan.zhihu.com/">zhihu.com</a></em></p><hr><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>马拉松是一场与自己的对话，是汗水与笑容的交织。希望这篇博客能激发你对马拉松的热情。留言告诉我：你最想参加哪场马拉松？或者，你已经跑过哪些难忘的赛道？</p><p><em>奔跑吧，让每一步都成为传奇！</em></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 运动 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 马拉松 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hello world,这是第一篇博客</title>
+      <link href="/2025/03/01/hello-world/"/>
+      <url>/2025/03/01/hello-world/</url>
+      
+        <content type="html"><![CDATA[<h1 id="这是我的第一篇博客，我将从这里出发，探索世界。。。"><a href="#这是我的第一篇博客，我将从这里出发，探索世界。。。" class="headerlink" title="这是我的第一篇博客，我将从这里出发，探索世界。。。"></a>这是我的第一篇博客，我将从这里出发，探索世界。。。</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>404 - 页面未找到</title>
+      <link href="/404.html"/>
+      <url>/404.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="404-迷路的小蝴蝶"><a href="#404-迷路的小蝴蝶" class="headerlink" title="404 - 迷路的小蝴蝶"></a>404 - 迷路的小蝴蝶</h1><p><img src="/img/404-butterfly.png" alt="404 Butterfly"></p><p>哎呀！你似乎飞到了未知的领域，奶龙找不到这个页面了呢。<br>别慌张，试试以下选项吧：</p><div class="btn-404">  <a href="/" class="btn-home">返回首页</a>  <a href="/archives/" class="btn-archives">探索文章</a></div><blockquote><p>“迷路也是一种冒险，不是吗？”</p></blockquote>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/cat.css"/>
+      <url>/css/cat.css</url>
+      
+        <content type="html"><![CDATA[body::-webkit-scrollbar {    width: 0;}.neko {    width: 64px;    height: 64px;    background-image: url("https://bu.dusays.com/2022/07/20/62d812db74be9.png");    position: absolute;    right: 32px;    background-repeat: no-repeat;    background-size: contain;    transform: translateX(50%);    cursor: pointer;    font-family: tzy;    font-weight: 600;    font-size: 16px;    color: #6f42c1;    display: none;}.neko::after {    display: none;    width: 100px;    height: 100px;    background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");    background-size: contain;    z-index: 9999;    position: absolute;    right: 50%;    text-align: center;    line-height: 100px;    top: -115%;}.neko.showMsg::after {    content: attr(data-msg);    display: block;    overflow: hidden;    text-overflow: ellipsis;}.neko:hover::after {    content: attr(data-msg);    display: block;    overflow: hidden;    text-overflow: ellipsis;}.neko.fontColor::after {    color: #333;}/** * @description: 滚动条样式  跟猫二选一 */@media screen and (max-width:992px) {    ::-webkit-scrollbar {        width: 8px !important;        height: 8px !important    }    ::-webkit-scrollbar-track {        border-radius: 2em;    }    ::-webkit-scrollbar-thumb {        background-color: rgb(255 255 255 / .3);        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);        border-radius: 2em    }    ::-webkit-scrollbar-corner {        background-color: transparent    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/progress_bar.css"/>
+      <url>/css/progress_bar.css</url>
+      
+        <content type="html"><![CDATA[.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 4px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 7rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden}.pace-inactive .pace-progress {    opacity: 0;    transition: .3s ease-in}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    /* linear-gradient(to right, #3494e6, #ec6ead) */    background: linear-gradient(to right, #43cea2, #3866ca);    animation: gradient 2s ease infinite;    background-size: 200%}.pace.pace-inactive {    opacity: 0;    transition: .3s;    top: -8px}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/readPercent.css"/>
+      <url>/css/readPercent.css</url>
+      
+        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>图库</title>
+      <link href="/images/index.html"/>
+      <url>/images/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main"><figure class="gallery-group">    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/default_cover_61.webp' alt="Group Image Gallery">    <figcaption>      <div class="gallery-group-name">封面专区</div>      <p>本站用作文章封面的图片，不保证分辨率</p>      <a href='/Gallery/cover'></a>    </figcaption>  </figure><figure class="gallery-group">    <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/dm11.webp' alt="Group Image Gallery">    <figcaption>      <div class="gallery-group-name">壁纸专区</div>      <p>收藏的一些的背景与壁纸，分辨率很高</p>      <a href='/Gallery/wallpaper'></a>    </figcaption>  </figure></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/runtime.css"/>
+      <url>/css/runtime.css</url>
+      
+        <content type="html"><![CDATA[#workboard {    font-size: 13px;    font-weight: 700;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[:root {  --trans-light: rgba(255, 255, 255, 0.8);  --trans-dark: rgba(25, 25, 25, 0.75);  --border-style: 1px solid rgb(169, 169, 169);  --backdrop-filter: blur(6px) saturate(150%);}/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  @font-face {    /* 为载入的字体取名字(随意) */    font-family: 'tianxingti';    /* 字体文件地址(相对或者绝对路径都可以) */    src: url(/font/字魂白鸽天行体.ttf);    /* 定义加粗样式(加粗多少) */    font-weight: normal;    /* 定义字体样式(斜体/非斜体) */    font-style: normal;    /* 定义显示样式 */    font-display: block;  }  /* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -38px;}/* 日间模式不生效 */[data-theme="light"] #site-name,[data-theme="light"] #site-title,[data-theme="light"] #site-subtitle,[data-theme="light"] #post-info {  animation: none;}/* 夜间模式生效 */[data-theme="dark"] #site-name,[data-theme="dark"] #site-title {  animation: light_15px 10s linear infinite;}[data-theme="dark"] #site-subtitle {  animation: light_10px 10s linear infinite;}[data-theme="dark"] #post-info {  animation: light_5px 10s linear infinite;}/* 关键帧描述 */@keyframes light_15px {  0% {    text-shadow: #5636ed 0 0 15px;  }  12.5% {    text-shadow: #11ee5e 0 0 15px;  }  25% {    text-shadow: #f14747 0 0 15px;  }  37.5% {    text-shadow: #f1a247 0 0 15px;  }  50% {    text-shadow: #f1ee47 0 0 15px;  }  50% {    text-shadow: #b347f1 0 0 15px;  }  62.5% {    text-shadow: #002afa 0 0 15px;  }  75% {    text-shadow: #ed709b 0 0 15px;  }  87.5% {    text-shadow: #39c5bb 0 0 15px;  }  100% {    text-shadow: #5636ed 0 0 15px;  }}@keyframes light_10px {  0% {    text-shadow: #5636ed 0 0 10px;  }  12.5% {    text-shadow: #11ee5e 0 0 10px;  }  25% {    text-shadow: #f14747 0 0 10px;  }  37.5% {    text-shadow: #f1a247 0 0 10px;  }  50% {    text-shadow: #f1ee47 0 0 10px;  }  50% {    text-shadow: #b347f1 0 0 10px;  }  62.5% {    text-shadow: #002afa 0 0 10px;  }  75% {    text-shadow: #ed709b 0 0 10px;  }  87.5% {    text-shadow: #39c5bb 0 0 10px;  }  100% {    text-shadow: #5636ed 0 0 10px;  }}@keyframes light_5px {  0% {    text-shadow: #5636ed 0 0 5px;  }  12.5% {    text-shadow: #11ee5e 0 0 5px;  }  25% {    text-shadow: #f14747 0 0 5px;  }  37.5% {    text-shadow: #f1a247 0 0 15px;  }  50% {    text-shadow: #f1ee47 0 0 5px;  }  50% {    text-shadow: #b347f1 0 0 5px;  }  62.5% {    text-shadow: #002afa 0 0 5px;  }  75% {    text-shadow: #ed709b 0 0 5px;  }  87.5% {    text-shadow: #39c5bb 0 0 5px;  }  100% {    text-shadow: #5636ed 0 0 5px;  }}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content > .card-widget.card-info {  background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {  background-color: #3eb8be;  border-radius: 8px;}#cursor {  position: fixed;  width: 24px;  height: 24px;  background: rgb(85, 163, 223);  border-radius: 8px;  opacity: 0.25;  z-index: 10086;  pointer-events: none;  transition: 0.2s ease-in-out;  transition-property: background, opacity, transform;  /* 调整为 -50% 以居中 */  transform: translate(-50%, -50%);  -webkit-transform: translate(-50%, -50%);}#cursor.hidden {  opacity: 0;}#cursor.hover {  opacity: 0.1;  /* 保持居中并缩放 */  transform: translate(-50%, -50%) scale(2.5);  -webkit-transform: translate(-50%, -50%) scale(2.5);  -moz-transform: translate(-50%, -50%) scale(2.5);  -ms-transform: translate(-50%, -50%) scale(2.5);  -o-transform: translate(-50%, -50%) scale(2.5);}#cursor.active {  opacity: 0.5;  /* 保持居中并缩放 */  transform: translate(-50%, -50%) scale(0.5);  -webkit-transform: translate(-50%, -50%) scale(0.5);  -moz-transform: translate(-50%, -50%) scale(0.5);  -ms-transform: translate(-50%, -50%) scale(0.5);  -o-transform: translate(-50%, -50%) scale(0.5);}/* 首页文章卡片 */#recent-posts > .recent-post-item {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border-radius: 25px;  border: var(--border-style);}/* 首页侧栏卡片 */#aside-content .card-widget {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border-radius: 18px;  border: var(--border-style);}/* 文章页、归档页、普通页面 */div#post,div#page,div#archive {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border: var(--border-style);  border-radius: 20px;}/* 导航栏 */#page-header.nav-fixed #nav {  background: rgba(255, 255, 255, 0.75);  backdrop-filter: var(--backdrop-filter);}[data-theme="dark"] #page-header.nav-fixed #nav {  background: rgba(0, 0, 0, 0.7) !important;}/* 夜间模式遮罩 */[data-theme="dark"] #recent-posts > .recent-post-item,[data-theme="dark"] #aside-content .card-widget,[data-theme="dark"] div#post,[data-theme="dark"] div#archive,[data-theme="dark"] div#page {  background: var(--trans-dark);}/* 夜间模式页脚页头遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 阅读模式 */.read-mode #aside-content .card-widget {  background: rgba(158, 204, 171, 0.5) !important;}.read-mode div#post {  background: rgba(158, 204, 171, 0.5) !important;}/* 夜间模式下的阅读模式 */[data-theme="dark"] .read-mode #aside-content .card-widget {  background: rgba(25, 25, 25, 0.9) !important;  color: #ffffff;}[data-theme="dark"] .read-mode div#post {  background: rgba(25, 25, 25, 0.9) !important;  color: #ffffff;}/*哔哩哔哩视频适配*/.aspect-ratio {  position: relative;  width: 90%;  height: auto;  padding-bottom: 75%;  margin: 3% auto;  text-align: center;}.aspect-ratio iframe {  position: absolute;  width: 100%;  height: 86%;  left: 0;  top: 0;}/* 文章页H1-H6图标样式效果 *//* 控制风车转动速度 4s那里可以自己调节快慢 */h1::before,h2::before,h3::before,h4::before,h5::before,h6::before {  -webkit-animation: ccc 4s linear infinite;  animation: ccc 4s linear infinite;}/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */@-webkit-keyframes ccc {  0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg);  }  to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn);  }}@keyframes ccc {  0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg);  }  to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn);  }}/* 设置风车颜色 */#content-inner.layout h1::before {  color: #ef50a8;  margin-left: -1.55rem;  font-size: 1.3rem;  margin-top: -0.23rem;}#content-inner.layout h2::before {  color: #fb7061;  margin-left: -1.35rem;  font-size: 1.1rem;  margin-top: -0.12rem;}#content-inner.layout h3::before {  color: #ffbf00;  margin-left: -1.22rem;  font-size: 0.95rem;  margin-top: -0.09rem;}#content-inner.layout h4::before {  color: #a9e000;  margin-left: -1.05rem;  font-size: 0.8rem;  margin-top: -0.09rem;}#content-inner.layout h5::before {  color: #57c850;  margin-left: -0.9rem;  font-size: 0.7rem;  margin-top: 0rem;}#content-inner.layout h6::before {  color: #5ec1e0;  margin-left: -0.9rem;  font-size: 0.66rem;  margin-top: 0rem;}/* s设置风车hover动效 6s那里可以自己调节快慢*/#content-inner.layout h1:hover,#content-inner.layout h2:hover,#content-inner.layout h3:hover,#content-inner.layout h4:hover,#content-inner.layout h5:hover,#content-inner.layout h6:hover {  color: var(--theme-color);}#content-inner.layout h1:hover::before,#content-inner.layout h2:hover::before,#content-inner.layout h3:hover::before,#content-inner.layout h4:hover::before,#content-inner.layout h5:hover::before,#content-inner.layout h6:hover::before {  color: var(--theme-color);  -webkit-animation: ccc 6s linear infinite;  animation: ccc 6s linear infinite;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/cat.js"/>
+      <url>/js/cat.js</url>
+      
+        <content type="html"><![CDATA[if (document.body.clientWidth > 992) {    function getBasicInfo() {        /* 窗口高度 */        var ViewH = $(window).height();        /* document高度 */        var DocH = $("body")[0].scrollHeight;        /* 滚动的高度 */        var ScrollTop = $(window).scrollTop();        /* 可滚动的高度 */        var S_V = DocH - ViewH;        var Band_H = ScrollTop / (DocH - ViewH) * 100;        return {            ViewH: ViewH,            DocH: DocH,            ScrollTop: ScrollTop,            Band_H: Band_H,            S_V: S_V        }    };    function show(basicInfo) {        if (basicInfo.ScrollTop > 0.001) {            $(".neko").css('display', 'block');        } else {            $(".neko").css('display', 'none');        }    }    (function ($) {        $.fn.nekoScroll = function (option) {            var defaultSetting = {                top: '0',                scroWidth: 6 + 'px',                z_index: 9999,                zoom: 0.9,                borderRadius: 5 + 'px',                right: 60 + 'px',                // 这里可以换为你喜欢的图片，例如我就换为了雪人，但是要抠图                nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",                hoverMsg: "喵喵喵~",                color: "#6f42c1",                during: 500,                blog_body: "body",            };            var setting = $.extend(defaultSetting, option);            var getThis = this.prop("className") !== "" ? "." + this.prop("className") : this.prop("id") !== "" ? "#" +                this.prop("id") : this.prop("nodeName");            if ($(".neko").length == 0) {                this.after("<div class=\"neko\" id=" + setting.nekoname + " data-msg=\"" + setting.hoverMsg + "\"></div>");            }            let basicInfo = getBasicInfo();            $(getThis)                .css({                    'position': 'fixed',                    'width': setting.scroWidth,                    'top': setting.top,                    'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',                    'z-index': setting.z_index,                    'background-color': setting.bgcolor,                    "border-radius": setting.borderRadius,                    'right': setting.right,                    'background-image': 'url(' + setting.scImg + ')',                    'background-image': '-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent)', 'border-radius': '2em',                    'background-size': 'contain'                });            $("#" + setting.nekoname)                .css({                    'position': 'fixed',                    'top': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 - 50 + 'px',                    'z-index': setting.z_index * 10,                    'right': setting.right,                    'background-image': 'url(' + setting.nekoImg + ')',                });            show(getBasicInfo());            $(window)                .scroll(function () {                    let basicInfo = getBasicInfo();                    show(basicInfo);                    $(getThis)                        .css({                            'position': 'fixed',                            'width': setting.scroWidth,                            'top': setting.top,                            'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',                            'z-index': setting.z_index,                            'background-color': setting.bgcolor,                            "border-radius": setting.borderRadius,                            'right': setting.right,                            'background-image': 'url(' + setting.scImg + ')',                            'background-image': '-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent)', 'border-radius': '2em',                            'background-size': 'contain'                        });                    $("#" + setting.nekoname)                        .css({                            'position': 'fixed',                            'top': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 - 50 + 'px',                            'z-index': setting.z_index * 10,                            'right': setting.right,                            'background-image': 'url(' + setting.nekoImg + ')',                        });                    if (basicInfo.ScrollTop == basicInfo.S_V) {                        $("#" + setting.nekoname)                            .addClass("showMsg")                    } else {                        $("#" + setting.nekoname)                            .removeClass("showMsg");                        $("#" + setting.nekoname)                            .attr("data-msg", setting.hoverMsg);                    }                });            this.click(function (e) {                btf.scrollToDest(0, 500)            });            $("#" + setting.nekoname)                .click(function () {                    btf.scrollToDest(0, 500)                });            return this;        }    })(jQuery);    $(document).ready(function () {        //部分自定义        $("#myscoll").nekoScroll({            bgcolor: 'rgb(0 0 0 / .5)', //背景颜色，没有绳子背景图片时有效            borderRadius: '2em',            zoom: 0.9        }        );        //自定义（去掉以下注释，并注释掉其他的查看效果）        /*        $("#myscoll").nekoScroll({            nekoname:'neko1', //nekoname，相当于id            nekoImg:'img/猫咪.png', //neko的背景图片            scImg:"img/绳1.png", //绳子的背景图片            bgcolor:'#1e90ff', //背景颜色，没有绳子背景图片时有效            zoom:0.9, //绳子长度的缩放值            hoverMsg:'你好~喵', //鼠标浮动到neko上方的对话框信息            right:'100px', //距离页面右边的距离            fontFamily:'楷体', //对话框字体            fontSize:'14px', //对话框字体的大小            color:'#1e90ff', //对话框字体颜色            scroWidth:'8px', //绳子的宽度            z_index:100, //不用解释了吧            during:1200, //从顶部到底部滑动的时长        });        */    })}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
+      
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/cursor.js"/>
+      <url>/js/cursor.js</url>
+      
+        <content type="html"><![CDATA[var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5' fill='rgb(0, 255, 8)'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {            if (this.pos.curr == null) this.move(e.clientX, e.clientY); // 移除 -8 偏移            this.pos.curr = {x: e.clientX, y: e.clientY}; // 更新为原始坐标            this.cursor.classList.remove("hidden");        };        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();})();]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/universe.js"/>
+      <url>/js/universe.js</url>
+      
+        <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/readPercent.js"/>
+      <url>/js/readPercent.js</url>
+      
+        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[/* 页面计时器 start */let now = new Date();function createtime() {    // 当前时间    now.setTime(now.getTime() + 1000);    let start = new Date("05/14/2023 00:00:00"); // 旅行者1号开始计算的时间    let dis = Math.trunc(23400000000 + (now - start) / 1000 * 17); // 距离=秒数*速度 记住转换毫秒    let unit = (dis / 149600000).toFixed(6); // 天文单位    // 网站诞生时间    let grt = new Date("03/01/2025 00:00:00");    let days = (now - grt) / 1e3 / 60 / 60 / 24;    let dnum = Math.floor(days);    let hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum;    let hnum = Math.floor(hours);    let minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum;    let mnum = Math.floor(minutes);    let seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum;    let snum = Math.round(seconds);    let currentTimeHtml = "";    currentTimeHtml = `<div style="font-size:13px;font-weight:bold">        本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒         <i id="heartbeat" class="fas fa-heartbeat"></i><br>        旅行者 1 号当前距离地球 ${dis} 千米,约为 ${unit} 个天文单位 🚀</div>        <font size=2px>再看看那个光点,它就在这里,这是家园,这是我们——         你所爱的每一个人,你认识的每一个人,你听说过的每一个人<br>曾经有过的每一个人,        都在它上面度过他们的一生⭐</font>`;        document.getElementById("workboard") &&        (document.getElementById("workboard").innerHTML = currentTimeHtml);}// 设置重复执行函数，周期1000mssetInterval(() => {    createtime();}, 1000);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>生活</title>
+      <link href="/life/index.html"/>
+      <url>/life/index.html</url>
+      
+        <content type="html"><![CDATA[<p>你好，这是生活</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>学习</title>
+      <link href="/learn/index.html"/>
+      <url>/learn/index.html</url>
+      
+        <content type="html"><![CDATA[<p>你好，这是学习</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>壁纸</title>
+      <link href="/Gallery/wallpaper/index.html"/>
+      <url>/Gallery/wallpaper/index.html</url>
+      
+        <content type="html"><![CDATA[<p>好康的壁纸<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">    <div class="gallery-items">[{"url":"https://source.fomal.cc/img/default_cover_1.webp","alt":"p1","title":""},{"url":"https://source.fomal.cc/img/default_cover_2.webp","alt":"p2","title":""},{"url":"https://source.fomal.cc/img/default_cover_3.webp","alt":"p3","title":""},{"url":"https://source.fomal.cc/img/default_cover_4.webp","alt":"p4","title":""},{"url":"https://source.fomal.cc/img/default_cover_5.webp","alt":"p5","title":""},{"url":"https://source.fomal.cc/img/default_cover_6.webp","alt":"p6","title":""},{"url":"https://source.fomal.cc/img/default_cover_7.webp","alt":"p7","title":""},{"url":"https://source.fomal.cc/img/default_cover_8.webp","alt":"p8","title":""},{"url":"https://source.fomal.cc/img/default_cover_9.webp","alt":"p9","title":""},{"url":"https://source.fomal.cc/img/default_cover_10.webp","alt":"p10","title":""},{"url":"https://source.fomal.cc/img/default_cover_11.webp","alt":"p11","title":""},{"url":"https://source.fomal.cc/img/default_cover_12.webp","alt":"p12","title":""}]</div>  </div></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>封面</title>
+      <link href="/Gallery/cover/index.html"/>
+      <url>/Gallery/cover/index.html</url>
+      
+        <content type="html"><![CDATA[<p>好康的封面<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">    <div class="gallery-items">[{"url":"https://img.ixintu.com/download/jpg/201911/f5042511abeca72ccbd106b3104da260.jpg!con0","alt":"p1","title":""},{"url":"https://th.bing.com/th/id/R.b43caf4b635bdd2f3b2f6dbcfd225779?rik=%2fNhd%2bdj5P2u38Q&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20181003%2f7b4620aebd93484789ffa9b8101157e7.jpeg&ehk=CuCmIcG43ZBwm1LN29wOIBEwsAG%2f9eZLxCbBWPnf3yU%3d&risl=&pid=ImgRaw&r=0","alt":"p2","title":""},{"url":"https://www.keaitupian.cn/cjpic/frombd/1/253/2701183717/1035152779.jpg","alt":"p3","title":""},{"url":"https://file.moyublog.com/d/file/2019-11-25/1a34f72f9fdb2962c797158fd545d5ab.png","alt":"p4","title":""},{"url":"https://img.keaitupian.cn/newupload/05/1684834658291825.jpg","alt":"p5","title":""}]</div>  </div></p>]]></content>
+      
+    </entry>
+    
+    
+  
 </search>
