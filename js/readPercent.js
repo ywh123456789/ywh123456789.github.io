@@ -14,4 +14,5 @@ function percent() {
         up.childNodes[1].style.display = 'none'
         up.childNodes[0].style.display = 'block'
     }
+    
 }

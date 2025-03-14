@@ -928,3 +928,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   })
 })
+
+// 加载自定义脚本
+require('./copy-notify.js');
