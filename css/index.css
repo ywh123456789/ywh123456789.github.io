@@ -5117,6 +5117,9 @@ figure.highlight pre .javascript .function {
 .menus_item a {
   text-decoration: none !important;
 }
+.icon-V {
+  padding: 5px;
+}
 @-moz-keyframes CuteenPlanetMove {
   0% {
     -webkit-transform: rotate(0);
