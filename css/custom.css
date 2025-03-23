@@ -515,3 +515,8 @@ svg.social_icon {
 [data-theme="dark"] #welcome-info {
   background: #212121;
 }
+
+.loading-img {
+  background: url(/img/longlong.jpg) no-repeat center center;
+  background-size: cover;
+}
