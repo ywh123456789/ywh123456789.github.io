@@ -1409,7 +1409,7 @@ function showWelcome() {
     // 将欢迎信息写入页面
     try {
         document.getElementById("welcome-info").innerHTML =
-            `<b><center>🎉 欢迎信息 🎉</center>  来自 <span style="color:#97e6f2">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:#97e6f2">${dist}</span> 公里，当前的IP地址为： <span style="color:#97e6f2">${ip}</span>， ${posdesc}</b>`;
+            `<b><center>🎉 欢迎信息 🎉</center>  来自 <span style="color:#97e6f2">${pos}</span> 的小伙伴，${timeChange}您现在距离俺约 <span style="color:#97e6f2">${dist}</span> 公里，当前的IP地址为： <span style="color:#97e6f2">${ip}</span>， ${posdesc}</b>`;
     } catch (err) {
         console.log("无法获取#welcome-info元素:", err);
     }
