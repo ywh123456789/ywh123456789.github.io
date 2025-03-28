@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
     font-family: tzy;
     font-weight: 600;
     font-size: 16px;
-    color: #6f42c1;
+    color: #4cbb62a4;
     display: none;
 }
 
@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
 }
 
 .neko.fontColor::after {
-    color: #333;
+    color: #4bc625;
 }
 
 /**
@@ -67,7 +67,7 @@ body::-webkit-scrollbar {
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: rgb(255 255 255 / .3);
+        background-color: rgba(13, 239, 149, 0.915);
         background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
         border-radius: 2em
     }

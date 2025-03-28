@@ -3339,7 +3339,7 @@ figure.highlight pre .javascript .function {
 }
 #footer {
   position: relative;
-  background-color: #49b1f5;
+  background: rgba(0,0,0,0.5) !important;
   background-attachment: scroll;
   background-position: bottom;
   background-size: cover;
