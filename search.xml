@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hello world,这是第一篇博客</title>
-    <url>/2025/03/01/hello-world/</url>
-    <content><![CDATA[<!-- ---
-title: Copyright-beautify # 文章名称
-date: 2021-03-02 13:52:46 # 文章发布日期
-updated: 2021-03-02 13:52:46 # 文章更新日期
-copyright_author: Nesxc # 作者覆写
-copyright_url: https://www.nesxc.com/post/hexocc.html # 原文链接覆写
-license: # 许可协议名称覆写
-license_url: # 许可协议链接覆写
---- -->
-<h1 id="这是我的第一篇博客，我将从这里出发，探索世界。。。"><a href="#这是我的第一篇博客，我将从这里出发，探索世界。。。" class="headerlink" title="这是我的第一篇博客，我将从这里出发，探索世界。。。"></a>这是我的第一篇博客，我将从这里出发，探索世界。。。</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+    <title>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）</title>
+    <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A001/</url>
+    <content><![CDATA[<h1 id="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"><a href="#梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系" class="headerlink" title="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"></a>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系</h1>]]></content>
       <categories>
-        <category>test</category>
+        <category>学习</category>
       </categories>
       <tags>
-        <tag>test</tag>
+        <tag>机器学习</tag>
+        <tag>微积分</tag>
+        <tag>线性代数</tag>
       </tags>
   </entry>
   <entry>
@@ -91,6 +75,35 @@ license_url: # 许可协议链接覆写
       </tags>
   </entry>
   <entry>
+    <title>hello world,这是第一篇博客</title>
+    <url>/2025/03/01/hello-world/</url>
+    <content><![CDATA[<!-- ---
+title: Copyright-beautify # 文章名称
+date: 2021-03-02 13:52:46 # 文章发布日期
+updated: 2021-03-02 13:52:46 # 文章更新日期
+copyright_author: Nesxc # 作者覆写
+copyright_url: https://www.nesxc.com/post/hexocc.html # 原文链接覆写
+license: # 许可协议名称覆写
+license_url: # 许可协议链接覆写
+--- -->
+<h1 id="这是我的第一篇博客，我将从这里出发，探索世界。。。"><a href="#这是我的第一篇博客，我将从这里出发，探索世界。。。" class="headerlink" title="这是我的第一篇博客，我将从这里出发，探索世界。。。"></a>这是我的第一篇博客，我将从这里出发，探索世界。。。</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>特征值分解（Eigen Value Decomposition，EVD）、奇异值分解（Singular Value Decomposition，SVD）原理、公式推导及应用</title>
     <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A002/</url>
     <content><![CDATA[]]></content>
@@ -100,19 +113,6 @@ license_url: # 许可协议链接覆写
       <tags>
         <tag>机器学习</tag>
         <tag>线性代数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）</title>
-    <url>/2025/03/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A001/</url>
-    <content><![CDATA[<h1 id="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"><a href="#梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系" class="headerlink" title="梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系"></a>梯度（gradient）、雅克比矩阵（Jacobian）、海森矩阵（Hessian）定义和联系</h1>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>机器学习</tag>
-        <tag>线性代数</tag>
-        <tag>微积分</tag>
       </tags>
   </entry>
   <entry>
@@ -134,6 +134,12 @@ license_url: # 许可协议链接覆写
     <title>分类</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站。</p>
+]]></content>
   </entry>
   <entry>
     <title></title>
@@ -206,11 +212,29 @@ license_url: # 许可协议链接覆写
   </entry>
   <entry>
     <title></title>
-    <url>/css/runtime.css</url>
-    <content><![CDATA[#workboard {
-    font-size: 13px;
-    font-weight: 700;
-}]]></content>
+    <url>/css/readPercent.css</url>
+    <content><![CDATA[/* 返回顶部 */
+
+button#go-up #percent {
+    display: none;
+    font-weight: bold;
+    font-size: 15px !important;
+}
+
+button#go-up span {
+    font-size: 12px!important;
+    margin-right: -1px;
+}
+
+/* 鼠标滑动到按钮上时显示返回顶部图标 */
+button#go-up:hover i {
+    display: block !important;
+}
+
+button#go-up:hover #percent {
+    display: none !important;
+}
+]]></content>
   </entry>
   <entry>
     <title></title>
@@ -293,32 +317,6 @@ body::-webkit-scrollbar {
         background-color: transparent
     }
 }]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/css/readPercent.css</url>
-    <content><![CDATA[/* 返回顶部 */
-
-button#go-up #percent {
-    display: none;
-    font-weight: bold;
-    font-size: 15px !important;
-}
-
-button#go-up span {
-    font-size: 12px!important;
-    margin-right: -1px;
-}
-
-/* 鼠标滑动到按钮上时显示返回顶部图标 */
-button#go-up:hover i {
-    display: block !important;
-}
-
-button#go-up:hover #percent {
-    display: none !important;
-}
-]]></content>
   </entry>
   <entry>
     <title></title>
@@ -1311,16 +1309,12 @@ footer#footer {
   }]]></content>
   </entry>
   <entry>
-    <title>关于</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<p>你好，这里是关于信息，欢迎访问本网站。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>学习</title>
-    <url>/learn/index.html</url>
-    <content><![CDATA[<p>你好，这是学习</p>
-]]></content>
+    <title></title>
+    <url>/css/runtime.css</url>
+    <content><![CDATA[#workboard {
+    font-size: 13px;
+    font-weight: 700;
+}]]></content>
   </entry>
   <entry>
     <title>图库</title>
@@ -1345,150 +1339,6 @@ footer#footer {
     </figcaption>
   </figure>
 </div>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/cursor.js</url>
-    <content><![CDATA[var CURSOR;
-
-Math.lerp = (a, b, n) => (1 - n) * a + n * b;
-
-const getStyle = (el, attr) => {
-    try {
-        return window.getComputedStyle
-            ? window.getComputedStyle(el)[attr]
-            : el.currentStyle[attr];
-    } catch (e) {}
-    return "";
-};
-
-class Cursor {
-    constructor() {
-        this.pos = {curr: null, prev: null};
-        this.pt = [];
-        this.create();
-        this.init();
-        this.render();
-    }
-
-    move(left, top) {
-        this.cursor.style["left"] = `${left}px`;
-        this.cursor.style["top"] = `${top}px`;
-    }
-
-    create() {
-        if (!this.cursor) {
-            this.cursor = document.createElement("div");
-            this.cursor.id = "cursor";
-            this.cursor.classList.add("hidden");
-            document.body.append(this.cursor);
-        }
-
-        var el = document.getElementsByTagName('*');
-        for (let i = 0; i < el.length; i++)
-            if (getStyle(el[i], "cursor") == "pointer")
-                this.pt.push(el[i].outerHTML);
-
-        document.body.appendChild((this.scr = document.createElement("style")));
-        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5' fill='rgb(0, 255, 8)'/></svg>") 4 4, auto}`;
-    }
-
-    refresh() {
-        this.scr.remove();
-        this.cursor.classList.remove("hover");
-        this.cursor.classList.remove("active");
-        this.pos = {curr: null, prev: null};
-        this.pt = [];
-
-        this.create();
-        this.init();
-        this.render();
-    }
-
-    init() {
-        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
-        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
-        document.onmousemove  = e => {
-            if (this.pos.curr == null) this.move(e.clientX, e.clientY); // 移除 -8 偏移
-            this.pos.curr = {x: e.clientX, y: e.clientY}; // 更新为原始坐标
-            this.cursor.classList.remove("hidden");
-        };
-        document.onmouseenter = e => this.cursor.classList.remove("hidden");
-        document.onmouseleave = e => this.cursor.classList.add("hidden");
-        document.onmousedown  = e => this.cursor.classList.add("active");
-        document.onmouseup    = e => this.cursor.classList.remove("active");
-    }
-
-    render() {
-        if (this.pos.prev) {
-            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);
-            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);
-            this.move(this.pos.prev.x, this.pos.prev.y);
-        } else {
-            this.pos.prev = this.pos.curr;
-        }
-        requestAnimationFrame(() => this.render());
-    }
-}
-
-(() => {
-    CURSOR = new Cursor();
-})();]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/fps.js</url>
-    <content><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {
-    var rAF = function () {
-        return (
-            window.requestAnimationFrame ||
-            window.webkitRequestAnimationFrame ||
-            function (callback) {
-                window.setTimeout(callback, 1000 / 60);
-            }
-        );
-    }();
-    var frame = 0;
-    var allFrameCount = 0;
-    var lastTime = Date.now();
-    var lastFameTime = Date.now();
-    var loop = function () {
-        var now = Date.now();
-        var fs = (now - lastFameTime);
-        var fps = Math.round(1000 / fs);
-
-        lastFameTime = now;
-        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS
-        allFrameCount++;
-        frame++;
-
-        if (now > 1000 + lastTime) {
-            var fps = Math.round((frame * 1000) / (now - lastTime));
-            if (fps <= 5) {
-                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`
-            } else if (fps <= 15) {
-                var kd = `<span style="color:red">电竞级帧率😖</span>`
-            } else if (fps <= 25) {
-                var kd = `<span style="color:orange">有点难受😨</span>`
-            } else if (fps < 35) {
-                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`
-            } else if (fps <= 45) {
-                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`
-            } else {
-                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`
-            }
-            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;
-            frame = 0;
-            lastTime = now;
-        };
-
-        rAF(loop);
-    }
-
-    loop();
-} else {
-    document.getElementById("fps").style = "display:none!important"
-}]]></content>
   </entry>
   <entry>
     <title></title>
@@ -1642,189 +1492,148 @@ class Cursor {
 }]]></content>
   </entry>
   <entry>
-    <title>生活</title>
-    <url>/life/index.html</url>
-    <content><![CDATA[<p>你好，这是生活</p>
-]]></content>
+    <title></title>
+    <url>/js/cursor.js</url>
+    <content><![CDATA[var CURSOR;
+
+Math.lerp = (a, b, n) => (1 - n) * a + n * b;
+
+const getStyle = (el, attr) => {
+    try {
+        return window.getComputedStyle
+            ? window.getComputedStyle(el)[attr]
+            : el.currentStyle[attr];
+    } catch (e) {}
+    return "";
+};
+
+class Cursor {
+    constructor() {
+        this.pos = {curr: null, prev: null};
+        this.pt = [];
+        this.create();
+        this.init();
+        this.render();
+    }
+
+    move(left, top) {
+        this.cursor.style["left"] = `${left}px`;
+        this.cursor.style["top"] = `${top}px`;
+    }
+
+    create() {
+        if (!this.cursor) {
+            this.cursor = document.createElement("div");
+            this.cursor.id = "cursor";
+            this.cursor.classList.add("hidden");
+            document.body.append(this.cursor);
+        }
+
+        var el = document.getElementsByTagName('*');
+        for (let i = 0; i < el.length; i++)
+            if (getStyle(el[i], "cursor") == "pointer")
+                this.pt.push(el[i].outerHTML);
+
+        document.body.appendChild((this.scr = document.createElement("style")));
+        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5' fill='rgb(0, 255, 8)'/></svg>") 4 4, auto}`;
+    }
+
+    refresh() {
+        this.scr.remove();
+        this.cursor.classList.remove("hover");
+        this.cursor.classList.remove("active");
+        this.pos = {curr: null, prev: null};
+        this.pt = [];
+
+        this.create();
+        this.init();
+        this.render();
+    }
+
+    init() {
+        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
+        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
+        document.onmousemove  = e => {
+            if (this.pos.curr == null) this.move(e.clientX, e.clientY); // 移除 -8 偏移
+            this.pos.curr = {x: e.clientX, y: e.clientY}; // 更新为原始坐标
+            this.cursor.classList.remove("hidden");
+        };
+        document.onmouseenter = e => this.cursor.classList.remove("hidden");
+        document.onmouseleave = e => this.cursor.classList.add("hidden");
+        document.onmousedown  = e => this.cursor.classList.add("active");
+        document.onmouseup    = e => this.cursor.classList.remove("active");
+    }
+
+    render() {
+        if (this.pos.prev) {
+            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);
+            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);
+            this.move(this.pos.prev.x, this.pos.prev.y);
+        } else {
+            this.pos.prev = this.pos.curr;
+        }
+        requestAnimationFrame(() => this.render());
+    }
+}
+
+(() => {
+    CURSOR = new Cursor();
+})();]]></content>
   </entry>
   <entry>
     <title></title>
-    <url>/js/day.js</url>
-    <content><![CDATA[var d = new Date();
-m = d.getMonth() + 1;
-dd = d.getDate();
-y = d.getFullYear();
+    <url>/js/fps.js</url>
+    <content><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {
+    var rAF = function () {
+        return (
+            window.requestAnimationFrame ||
+            window.webkitRequestAnimationFrame ||
+            function (callback) {
+                window.setTimeout(callback, 1000 / 60);
+            }
+        );
+    }();
+    var frame = 0;
+    var allFrameCount = 0;
+    var lastTime = Date.now();
+    var lastFameTime = Date.now();
+    var loop = function () {
+        var now = Date.now();
+        var fs = (now - lastFameTime);
+        var fps = Math.round(1000 / fs);
 
-// 公祭日
-if (m == 9 && dd == 18) {
-    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("今天是九一八事变" + (y - 1931).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 7 && dd == 7) {
-    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("今天是卢沟桥事变" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 12 && dd == 13) {
-    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("今天是南京大屠杀" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 8 && dd == 14) {
-    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("今天是世界慰安妇纪念日\n🪔勿忘国耻，振兴中华🪔");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
+        lastFameTime = now;
+        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS
+        allFrameCount++;
+        frame++;
 
+        if (now > 1000 + lastTime) {
+            var fps = Math.round((frame * 1000) / (now - lastTime));
+            if (fps <= 5) {
+                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`
+            } else if (fps <= 15) {
+                var kd = `<span style="color:red">电竞级帧率😖</span>`
+            } else if (fps <= 25) {
+                var kd = `<span style="color:orange">有点难受😨</span>`
+            } else if (fps < 35) {
+                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`
+            } else if (fps <= 45) {
+                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`
+            } else {
+                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`
+            }
+            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;
+            frame = 0;
+            lastTime = now;
+        };
 
-// 节假日
-if (m == 10 && dd <= 3) {//国庆节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("祝祖国" + (y - 1949).toString() + "岁生日快乐！");
-        sessionStorage.setItem("isPopupWindow", "1");
+        rAF(loop);
     }
-}
-if (m == 8 && dd == 15) {//搞来玩的，小日子投降
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("小日子已经投降" + (y - 1945).toString() + "年了😃");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 1 && dd == 1) {//元旦节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire(y.toString() + "年元旦快乐！🎉");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 3 && dd == 8) {//妇女节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("各位女神们，妇女节快乐！👩");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-l = ["非常抱歉，因为不可控原因，博客将于明天停止运营！", "好消息，日本没了！", "美国垮了，原因竟然是川普！", "微软垮了！", "你的电脑已经过载，建议立即关机！", "你知道吗？站长很喜欢你哦！", "一分钟有61秒哦", "你喜欢的人跟别人跑了！"]
-if (m == 4 && dd == 1) {//愚人节，随机谎话
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire(l[Math.floor(Math.random() * l.length)]);
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 5 && dd == 1) {//劳动节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("劳动节快乐\n为各行各业辛勤工作的人们致敬！");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 5 && dd == 4) {//青年节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("青年节快乐\n青春不是回忆逝去,而是把握现在！");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 5 && dd == 20) {//520
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("今年是520情人节\n快和你喜欢的人一起过吧！💑");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 7 && dd == 1) {//建党节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("祝中国共产党" + (y - 1921).toString() + "岁生日快乐！");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 9 && dd == 10) {//教师节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("各位老师们教师节快乐！👩‍🏫");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if (m == 12 && dd == 25) {//圣诞节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("圣诞节快乐！🎄");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
 
-//传统节日部分
-
-if ((y == 2023 && m == 4 && dd == 5) || (y == 2024 && m == 4 && dd == 4) || (y == 2025 && m == 4 && dd == 4)) {//清明节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("清明时节雨纷纷,一束鲜花祭故人💐");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if ((y == 2023 && m == 12 && dd == 22) || (y == 2024 && m == 12 && dd == 21) || (y == 2025 && m == 12 && dd == 21)) {//冬至
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("冬至快乐\n快吃上一碗热热的汤圆和饺子吧🧆");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-
-var lunar = calendarFormatter.solar2lunar();
-
-//农历采用汉字计算，防止出现闰月导致问题
-
-if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初六") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初五") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初四") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初三") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初二") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初一") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "三十") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "廿九")) {
-    //春节，本来只有大年三十到初六，但是有时候除夕是大年二十九，所以也加上了
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire(y.toString() + "年新年快乐\n🎊祝你心想事成，诸事顺利🎊");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "十五")) {
-    //元宵节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("元宵节快乐\n送你一个大大的灯笼🧅");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if ((lunar["IMonthCn"] == "五月" && lunar["IDayCn"] == "初五")) {
-    //端午节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("端午节快乐\n请你吃一条粽子🍙");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if ((lunar["IMonthCn"] == "七月" && lunar["IDayCn"] == "初七")) {
-    //七夕节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("七夕节快乐\n黄昏后,柳梢头,牛郎织女来碰头");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if ((lunar["IMonthCn"] == "八月" && lunar["IDayCn"] == "十五")) {
-    //中秋节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("中秋节快乐\n请你吃一块月饼🍪");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {
-    //重阳节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("重阳节快乐\n独在异乡为异客，每逢佳节倍思亲");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
-
-// 切换主题提醒
-// if (y == 2022 && m == 12 && (dd >= 18 && dd <= 20)) {
-//     if (sessionStorage.getItem("isPopupWindow") != "1") {
-//         Swal.fire("网站换成冬日限定主题啦⛄");
-//         sessionStorage.setItem("isPopupWindow", "1");
-//     }
-// }
-]]></content>
+    loop();
+} else {
+    document.getElementById("fps").style = "display:none!important"
+}]]></content>
   </entry>
   <entry>
     <title></title>
@@ -1833,44 +1642,36 @@ if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {
   </entry>
   <entry>
     <title></title>
-    <url>/js/runtime.js</url>
-    <content><![CDATA[/* 页面计时器 start */
-let now = new Date();
-function createtime() {
-    // 当前时间
-    now.setTime(now.getTime() + 1000);
-    let start = new Date("05/14/2023 00:00:00"); // 旅行者1号开始计算的时间
-    let dis = Math.trunc(23400000000 + (now - start) / 1000 * 17); // 距离=秒数*速度 记住转换毫秒
-    let unit = (dis / 149600000).toFixed(6); // 天文单位
-
-    // 网站诞生时间
-    let grt = new Date("03/01/2025 00:00:00");
-    let days = (now - grt) / 1e3 / 60 / 60 / 24;
-    let dnum = Math.floor(days);
-    let hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum;
-    let hnum = Math.floor(hours);
-    let minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum;
-    let mnum = Math.floor(minutes);
-    let seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum;
-    let snum = Math.round(seconds);
-
-    let currentTimeHtml = "";
-    currentTimeHtml = `<div style="font-size:13px;font-weight:bold">
-        本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 
-        <i id="heartbeat" class="fas fa-heartbeat"></i><br>
-        旅行者 1 号当前距离地球 ${dis} 千米,约为 ${unit} 个天文单位 🚀</div>
-        <font size=2px>再看看那个光点,它就在这里,这是家园,这是我们—— 
-        你所爱的每一个人,你认识的每一个人,你听说过的每一个人<br>曾经有过的每一个人,
-        都在它上面度过他们的一生⭐</font>`;
-    
-    document.getElementById("workboard") &&
-        (document.getElementById("workboard").innerHTML = currentTimeHtml);
+    <url>/js/random.js</url>
+    <content><![CDATA[// 发现有时会和当前页面重复，加一个判断
+function randomPost() {
+    fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
+        let ls = data.querySelectorAll('url loc');
+        while (true) {
+            let url = ls[Math.floor(Math.random() * ls.length)].innerHTML;
+            if (location.href == url) continue;
+            location.href = url;
+            return;
+        }
+    })
 }
-
-// 设置重复执行函数，周期1000ms
-setInterval(() => {
-    createtime();
-}, 1000);]]></content>
+// 阅读文章时看了一遍写的代码，发现加个数组和一个遍历完全没必要，改成下面这个即可。
+// function randomPost() {
+//     fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
+//         let ls = data.querySelectorAll('url loc');
+//         location.href = ls[Math.floor(Math.random() * ls.length)].innerHTML
+//     })
+// }
+// 旧代码
+// function randomPost() {
+    // fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
+    //     let ls = data.querySelectorAll('url loc');
+    //     let list = [];
+    //     ls.forEach(i => list.push(i.innerHTML))
+    //     location.href = list[Math.floor(Math.random() * ls.length)]
+    // })
+// }
+]]></content>
   </entry>
   <entry>
     <title></title>
@@ -2192,34 +1993,180 @@ function changeMouseMode() {
   </entry>
   <entry>
     <title></title>
-    <url>/js/random.js</url>
-    <content><![CDATA[// 发现有时会和当前页面重复，加一个判断
-function randomPost() {
-    fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
-        let ls = data.querySelectorAll('url loc');
-        while (true) {
-            let url = ls[Math.floor(Math.random() * ls.length)].innerHTML;
-            if (location.href == url) continue;
-            location.href = url;
-            return;
-        }
-    })
+    <url>/js/day.js</url>
+    <content><![CDATA[var d = new Date();
+m = d.getMonth() + 1;
+dd = d.getDate();
+y = d.getFullYear();
+
+// 公祭日
+if (m == 9 && dd == 18) {
+    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("今天是九一八事变" + (y - 1931).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
 }
-// 阅读文章时看了一遍写的代码，发现加个数组和一个遍历完全没必要，改成下面这个即可。
-// function randomPost() {
-//     fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
-//         let ls = data.querySelectorAll('url loc');
-//         location.href = ls[Math.floor(Math.random() * ls.length)].innerHTML
-//     })
-// }
-// 旧代码
-// function randomPost() {
-    // fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
-    //     let ls = data.querySelectorAll('url loc');
-    //     let list = [];
-    //     ls.forEach(i => list.push(i.innerHTML))
-    //     location.href = list[Math.floor(Math.random() * ls.length)]
-    // })
+if (m == 7 && dd == 7) {
+    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("今天是卢沟桥事变" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 12 && dd == 13) {
+    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("今天是南京大屠杀" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 8 && dd == 14) {
+    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("今天是世界慰安妇纪念日\n🪔勿忘国耻，振兴中华🪔");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+
+
+// 节假日
+if (m == 10 && dd <= 3) {//国庆节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("祝祖国" + (y - 1949).toString() + "岁生日快乐！");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 8 && dd == 15) {//搞来玩的，小日子投降
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("小日子已经投降" + (y - 1945).toString() + "年了😃");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 1 && dd == 1) {//元旦节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire(y.toString() + "年元旦快乐！🎉");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 3 && dd == 8) {//妇女节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("各位女神们，妇女节快乐！👩");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+l = ["非常抱歉，因为不可控原因，博客将于明天停止运营！", "好消息，日本没了！", "美国垮了，原因竟然是川普！", "微软垮了！", "你的电脑已经过载，建议立即关机！", "你知道吗？站长很喜欢你哦！", "一分钟有61秒哦", "你喜欢的人跟别人跑了！"]
+if (m == 4 && dd == 1) {//愚人节，随机谎话
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire(l[Math.floor(Math.random() * l.length)]);
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 5 && dd == 1) {//劳动节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("劳动节快乐\n为各行各业辛勤工作的人们致敬！");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 5 && dd == 4) {//青年节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("青年节快乐\n青春不是回忆逝去,而是把握现在！");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 5 && dd == 20) {//520
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("今年是520情人节\n快和你喜欢的人一起过吧！💑");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 7 && dd == 1) {//建党节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("祝中国共产党" + (y - 1921).toString() + "岁生日快乐！");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 9 && dd == 10) {//教师节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("各位老师们教师节快乐！👩‍🏫");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 12 && dd == 25) {//圣诞节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("圣诞节快乐！🎄");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+
+//传统节日部分
+
+if ((y == 2023 && m == 4 && dd == 5) || (y == 2024 && m == 4 && dd == 4) || (y == 2025 && m == 4 && dd == 4)) {//清明节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("清明时节雨纷纷,一束鲜花祭故人💐");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if ((y == 2023 && m == 12 && dd == 22) || (y == 2024 && m == 12 && dd == 21) || (y == 2025 && m == 12 && dd == 21)) {//冬至
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("冬至快乐\n快吃上一碗热热的汤圆和饺子吧🧆");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+
+var lunar = calendarFormatter.solar2lunar();
+
+//农历采用汉字计算，防止出现闰月导致问题
+
+if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初六") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初五") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初四") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初三") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初二") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初一") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "三十") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "廿九")) {
+    //春节，本来只有大年三十到初六，但是有时候除夕是大年二十九，所以也加上了
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire(y.toString() + "年新年快乐\n🎊祝你心想事成，诸事顺利🎊");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "十五")) {
+    //元宵节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("元宵节快乐\n送你一个大大的灯笼🧅");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if ((lunar["IMonthCn"] == "五月" && lunar["IDayCn"] == "初五")) {
+    //端午节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("端午节快乐\n请你吃一条粽子🍙");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if ((lunar["IMonthCn"] == "七月" && lunar["IDayCn"] == "初七")) {
+    //七夕节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("七夕节快乐\n黄昏后,柳梢头,牛郎织女来碰头");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if ((lunar["IMonthCn"] == "八月" && lunar["IDayCn"] == "十五")) {
+    //中秋节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("中秋节快乐\n请你吃一块月饼🍪");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {
+    //重阳节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("重阳节快乐\n独在异乡为异客，每逢佳节倍思亲");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+
+// 切换主题提醒
+// if (y == 2022 && m == 12 && (dd >= 18 && dd <= 20)) {
+//     if (sessionStorage.getItem("isPopupWindow") != "1") {
+//         Swal.fire("网站换成冬日限定主题啦⛄");
+//         sessionStorage.setItem("isPopupWindow", "1");
+//     }
 // }
 ]]></content>
   </entry>
@@ -2244,6 +2191,47 @@ function percent() {
     }
     
 }]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/js/runtime.js</url>
+    <content><![CDATA[/* 页面计时器 start */
+let now = new Date();
+function createtime() {
+    // 当前时间
+    now.setTime(now.getTime() + 1000);
+    let start = new Date("05/14/2023 00:00:00"); // 旅行者1号开始计算的时间
+    let dis = Math.trunc(23400000000 + (now - start) / 1000 * 17); // 距离=秒数*速度 记住转换毫秒
+    let unit = (dis / 149600000).toFixed(6); // 天文单位
+
+    // 网站诞生时间
+    let grt = new Date("03/01/2025 00:00:00");
+    let days = (now - grt) / 1e3 / 60 / 60 / 24;
+    let dnum = Math.floor(days);
+    let hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum;
+    let hnum = Math.floor(hours);
+    let minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum;
+    let mnum = Math.floor(minutes);
+    let seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum;
+    let snum = Math.round(seconds);
+
+    let currentTimeHtml = "";
+    currentTimeHtml = `<div style="font-size:13px;font-weight:bold">
+        本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 
+        <i id="heartbeat" class="fas fa-heartbeat"></i><br>
+        旅行者 1 号当前距离地球 ${dis} 千米,约为 ${unit} 个天文单位 🚀</div>
+        <font size=2px>再看看那个光点,它就在这里,这是家园,这是我们—— 
+        你所爱的每一个人,你认识的每一个人,你听说过的每一个人<br>曾经有过的每一个人,
+        都在它上面度过他们的一生⭐</font>`;
+    
+    document.getElementById("workboard") &&
+        (document.getElementById("workboard").innerHTML = currentTimeHtml);
+}
+
+// 设置重复执行函数，周期1000ms
+setInterval(() => {
+    createtime();
+}, 1000);]]></content>
   </entry>
   <entry>
     <title></title>
@@ -2323,6 +2311,72 @@ function percent() {
     typeof FB === 'object' && window.loadFBComment()
     window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)
 }]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/js/title.js</url>
+    <content><![CDATA[//动态标题
+var OriginTitile = document.title;
+var titleTime;
+document.addEventListener('visibilitychange', function () {
+  if (document.hidden) {
+    //离开当前页面时标签显示内容
+    document.title = '👀跑哪里去了~';
+    clearTimeout(titleTime);
+  } else {
+    //返回当前页面时标签显示内容
+    document.title = '🐖抓到你啦～';
+    //两秒后变回正常标题
+    titleTime = setTimeout(function () {
+      document.title = OriginTitile;
+    }, 2000);
+  }
+});
+]]></content>
+  </entry>
+  <entry>
+    <title>生活</title>
+    <url>/life/index.html</url>
+    <content><![CDATA[<p>你好，这是生活</p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/js/universe.js</url>
+    <content><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};
+dark()]]></content>
+  </entry>
+  <entry>
+    <title>友情链接</title>
+    <url>/link/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>学习</title>
+    <url>/learn/index.html</url>
+    <content><![CDATA[<p>你好，这是学习</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>壁纸</title>
+    <url>/Gallery/wallpaper/index.html</url>
+    <content><![CDATA[<p>好康的壁纸<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://source.fomal.cc/img/default_cover_1.webp","alt":"p1","title":""},{"url":"https://source.fomal.cc/img/default_cover_2.webp","alt":"p2","title":""},{"url":"https://source.fomal.cc/img/default_cover_3.webp","alt":"p3","title":""},{"url":"https://source.fomal.cc/img/default_cover_4.webp","alt":"p4","title":""},{"url":"https://source.fomal.cc/img/default_cover_5.webp","alt":"p5","title":""},{"url":"https://source.fomal.cc/img/default_cover_6.webp","alt":"p6","title":""},{"url":"https://source.fomal.cc/img/default_cover_7.webp","alt":"p7","title":""},{"url":"https://source.fomal.cc/img/default_cover_8.webp","alt":"p8","title":""},{"url":"https://source.fomal.cc/img/default_cover_9.webp","alt":"p9","title":""},{"url":"https://source.fomal.cc/img/default_cover_10.webp","alt":"p10","title":""},{"url":"https://source.fomal.cc/img/default_cover_11.webp","alt":"p11","title":""},{"url":"https://source.fomal.cc/img/default_cover_12.webp","alt":"p12","title":""}]</div>
+  </div></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>封面</title>
+    <url>/Gallery/cover/index.html</url>
+    <content><![CDATA[<p>好康的封面<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://img.ixintu.com/download/jpg/201911/f5042511abeca72ccbd106b3104da260.jpg!con0","alt":"p1","title":""},{"url":"https://th.bing.com/th/id/R.b43caf4b635bdd2f3b2f6dbcfd225779?rik=%2fNhd%2bdj5P2u38Q&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20181003%2f7b4620aebd93484789ffa9b8101157e7.jpeg&ehk=CuCmIcG43ZBwm1LN29wOIBEwsAG%2f9eZLxCbBWPnf3yU%3d&risl=&pid=ImgRaw&r=0","alt":"p2","title":""},{"url":"https://www.keaitupian.cn/cjpic/frombd/1/253/2701183717/1035152779.jpg","alt":"p3","title":""},{"url":"https://file.moyublog.com/d/file/2019-11-25/1a34f72f9fdb2962c797158fd545d5ab.png","alt":"p4","title":""},{"url":"https://img.keaitupian.cn/newupload/05/1684834658291825.jpg","alt":"p5","title":""}]</div>
+  </div></p>
+]]></content>
   </entry>
   <entry>
     <title></title>
@@ -3749,59 +3803,5 @@ window.onload = showWelcome;
 
 // 如果使用Pjax，监听Pjax完成事件
 document.addEventListener('pjax:complete', showWelcome);]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/universe.js</url>
-    <content><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};
-dark()]]></content>
-  </entry>
-  <entry>
-    <title>壁纸</title>
-    <url>/Gallery/wallpaper/index.html</url>
-    <content><![CDATA[<p>好康的壁纸<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://source.fomal.cc/img/default_cover_1.webp","alt":"p1","title":""},{"url":"https://source.fomal.cc/img/default_cover_2.webp","alt":"p2","title":""},{"url":"https://source.fomal.cc/img/default_cover_3.webp","alt":"p3","title":""},{"url":"https://source.fomal.cc/img/default_cover_4.webp","alt":"p4","title":""},{"url":"https://source.fomal.cc/img/default_cover_5.webp","alt":"p5","title":""},{"url":"https://source.fomal.cc/img/default_cover_6.webp","alt":"p6","title":""},{"url":"https://source.fomal.cc/img/default_cover_7.webp","alt":"p7","title":""},{"url":"https://source.fomal.cc/img/default_cover_8.webp","alt":"p8","title":""},{"url":"https://source.fomal.cc/img/default_cover_9.webp","alt":"p9","title":""},{"url":"https://source.fomal.cc/img/default_cover_10.webp","alt":"p10","title":""},{"url":"https://source.fomal.cc/img/default_cover_11.webp","alt":"p11","title":""},{"url":"https://source.fomal.cc/img/default_cover_12.webp","alt":"p12","title":""}]</div>
-  </div></p>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/title.js</url>
-    <content><![CDATA[//动态标题
-var OriginTitile = document.title;
-var titleTime;
-document.addEventListener('visibilitychange', function () {
-  if (document.hidden) {
-    //离开当前页面时标签显示内容
-    document.title = '👀跑哪里去了~';
-    clearTimeout(titleTime);
-  } else {
-    //返回当前页面时标签显示内容
-    document.title = '🐖抓到你啦～';
-    //两秒后变回正常标题
-    titleTime = setTimeout(function () {
-      document.title = OriginTitile;
-    }, 2000);
-  }
-});
-]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/link/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>封面</title>
-    <url>/Gallery/cover/index.html</url>
-    <content><![CDATA[<p>好康的封面<br><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://img.ixintu.com/download/jpg/201911/f5042511abeca72ccbd106b3104da260.jpg!con0","alt":"p1","title":""},{"url":"https://th.bing.com/th/id/R.b43caf4b635bdd2f3b2f6dbcfd225779?rik=%2fNhd%2bdj5P2u38Q&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20181003%2f7b4620aebd93484789ffa9b8101157e7.jpeg&ehk=CuCmIcG43ZBwm1LN29wOIBEwsAG%2f9eZLxCbBWPnf3yU%3d&risl=&pid=ImgRaw&r=0","alt":"p2","title":""},{"url":"https://www.keaitupian.cn/cjpic/frombd/1/253/2701183717/1035152779.jpg","alt":"p3","title":""},{"url":"https://file.moyublog.com/d/file/2019-11-25/1a34f72f9fdb2962c797158fd545d5ab.png","alt":"p4","title":""},{"url":"https://img.keaitupian.cn/newupload/05/1684834658291825.jpg","alt":"p5","title":""}]</div>
-  </div></p>
-]]></content>
   </entry>
 </search>
